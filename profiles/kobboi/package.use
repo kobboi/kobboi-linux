@@ -1,0 +1,732 @@
+# support pidgin accounts in bitlbee
+net-im/bitlbee purple
+
+www-servers/apache gdbm
+
+# cross-avr
+cross-avr/binutils cxx multilib
+cross-avr/avr-libc -selinux multilib
+cross-avr/gcc -fortran -go -sanitize -vtv -pie nopie -ssp nossp -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc multilib
+
+# only want qt-creator to compile simutron
+dev-qt/qt-creator -webengine
+
+# media-sound/picard
+dev-qt/qtgui accessibility
+
+# wine
+virtual/wine -abi_x86_32
+app-emulation/faudio -abi_x86_32
+app-emulation/wine-vanilla -abi_x86_32
+app-emulation/wine-staging -abi_x86_32
+app-emulation/wine-staging s3tc pipelight dos
+media-libs/libsdl2 haptic
+
+# qemu static-user for raspberry pi chroot usage
+# 2019-08-18: dropped -spice on qemu
+app-emulation/qemu static-user spice
+dev-libs/glib static-libs
+sys-apps/attr static-libs
+dev-libs/libpcre static-libs
+
+### media-gfx/simple-scan
+>=dev-libs/libgusb-0.2.11 vala
+x11-misc/colord vala
+
+### opensc ###
+# voor 14 juni 2017 was het openct van de eerste 3 hieronder mag er maar 1 op staan
+dev-libs/opensc -openct pcsc-lite -ctapi secure-messaging
+
+### bind ###
+net-dns/bind dlz caps
+
+### aegisub ###
+dev-libs/boost icu
+dev-lang/luajit lua52compat
+
+### aircrack-ng ###
+net-wireless/lorcon python
+
+### anjuta ###
+dev-util/anjuta introspection devhelp glade packagekit terminal
+
+### anjuta-guile ###
+dev-libs/boehm-gc threads
+
+### antlr for sqlitebrowser ###
+dev-java/antlr cxx java
+
+### arc-theme ###
+x11-themes/arc-theme gtk3 gnome-shell
+
+### ardour ###
+sci-libs/fftw threads
+
+### asterisk ###
+net-misc/asterisk http
+
+### audacity ###
+media-sound/audacity ffmpeg twolame
+
+### avahi-for-networkmanager ###
+net-dns/avahi autoipd
+
+### avrdude ###
+dev-embedded/avrdude ftdi
+
+### bitcoin-qt ###
+dev-libs/leveldb -snappy
+
+### blender ###
+media-gfx/blender collada colorio cycles fftw redcode jpeg2k openimageio
+
+dev-python/numpy python_targets_python3_6
+
+### bochs ###
+app-emulation/bochs -wxwidgets
+
+### boost-static ###
+dev-libs/boost static-libs
+
+### buildbot ###
+dev-util/buildbot docker
+
+### bzflag ###
+games-action/bzflag -upnp
+
+### ca-certificates ###
+app-misc/ca-certificates insecure_certs cacert
+
+### cairo ###
+
+### calibre ###
+app-text/poppler qt5
+dev-qt/qtwebkit printsupport
+dev-python/PyQt5 webkit webchannel
+#dev-python/PyQt5-sip python_targets_python3_6
+#dev-python/dbus-python python_targets_python3_6
+#dev-python/sip python_targets_python3_6
+#dev-python/olefile python_targets_python3_6
+
+### calligra ###
+media-gfx/pstoedit plotutils
+
+### catalyst ###
+app-arch/tar xattr
+
+### cifs-utils ###
+net-fs/cifs-utils -caps caps-ng
+
+### clang ###
+sys-devel/llvm clang
+
+### clementine ###
+media-sound/clementine googledrive
+
+### connman ###
+net-misc/connman ofono tools
+
+### coq ###
+dev-ml/lablgtk sourceview
+
+### corefonts-tahoma ###
+media-fonts/corefonts tahoma
+
+### cura ###
+dev-python/PyQt5 declarative
+dev-python/numpy lapack
+dev-libs/libarcus python
+dev-libs/libsavitar python
+>=dev-python/pyserial-3.4 python_targets_python3_6
+>=dev-python/zeroconf-0.24.4 python_targets_python3_6
+>=dev-python/ifaddr-0.1.6 python_targets_python3_6
+>=dev-python/pillow-7.1.2 python_targets_python3_6
+>=dev-python/protobuf-python-3.11.4 python_targets_python3_6
+>=dev-python/namespace-google-1 python_targets_python3_6
+>=sci-libs/scipy-1.4.1 python_targets_python3_6
+>=sci-libs/Shapely-1.6.4_p2-r1 python_targets_python3_6
+>=dev-python/pybind11-2.4.3 python_targets_python3_6
+>=dev-python/olefile-0.46 python_targets_python3_6
+>=dev-python/cython-0.29.17 python_targets_python3_6
+
+
+
+### digikam ###
+kde-apps/marble plasma
+media-libs/opencv contrib
+# https://bugs.gentoo.org/666716
+dev-games/ogre experimental
+
+### disable-qt-support ###
+dev-util/cmake -qt5
+
+### distcc ###
+sys-devel/distcc crossdev
+
+### docker ###
+app-emulation/docker doc -aufs btrfs -device-mapper -seccomp
+sys-libs/libseccomp static-libs
+sys-process/tini static
+
+### dracut ###
+sys-kernel/dracut device-mapper net dracut_modules_biosdevname dracut_modules_systemd dracut_modules_dmraid dracut_modules_mdadm dracut_modules_lvm dracut_modules_nfs dracut_modules_ssh-client
+
+### ekiga ###
+net-libs/opal sip sipim
+
+### emilpro ###
+sys-devel/binutils  multitarget
+
+### eric ###
+#dev-python/PyQt5 sql help webengine webchannel
+#dev-qt/qtwebengine widgets
+#dev-qt/qtwebchannel qml
+#dev-libs/libxml2 icu
+
+### evolution-data-server ###
+# for google contacts
+gnome-extra/evolution-data-server google
+
+### feedreader ###
+app-crypt/libsecret vala
+
+### ffmpeg ###
+# geen samba, want dan krijgen we samba3
+virtual/ffmpeg threads -samba
+# openssl voor https voor vtm.be downloads met youtube-dl
+media-video/ffmpeg vpx theora threads libass -samba fribidi frei0r openssl x265 bluray
+
+### firefox ###
+media-plugins/gst-plugins-meta ffmpeg nl
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
+>=sys-devel/llvm-10.0.0 gold
+www-client/firefox hwaccel
+
+### gbm ###
+media-libs/mesa gbm
+
+### geany-plugins ###
+dev-util/geany gtk3
+dev-util/geany-plugins autoclose commander defineformat nls -debugger -devhelp enchant gpg gtkspell lua markdown multiterm python scope soup -webkit  ctags git
+
+### genkernel-next ###
+sys-kernel/genkernel-next dmraid
+
+### getting-rid-of-gtk2 ###
+#still needed for thunderbird
+app-crypt/pinentry gtk
+media-libs/opencv -gtk
+
+### gimp ###
+#voor mypaint, wat nodig is voor gimp-9999
+dev-libs/protobuf python
+media-libs/libmypaint gegl
+
+### git ###
+dev-vcs/git tk
+
+### gitg ###
+dev-libs/libgit2 threads
+app-text/gtkspell vala
+
+### gitolite ###
+dev-vcs/gitolite tools
+
+### gnome ###
+gnome-extra/evolution-data-server vala
+dev-libs/libical vala
+gnome-base/gnome accessibility
+gnome-base/gdm -branding
+app-accessibility/brltty python
+dev-libs/liblouis python
+dev-libs/libgit2-glib ssh
+dev-libs/libgit2 ssh
+net-misc/vino networkmanager
+gnome-base/gnome-settings-daemon networkmanager
+gnome-base/gnome-control-center networkmanager
+net-libs/gnutls pkcs11
+
+### gnome-builder ###
+dev-util/gnome-builder python webkit vala sysprof gtk-doc clang
+dev-libs/libdazzle vala
+dev-libs/jsonrpc-glib vala
+dev-libs/template-glib vala
+x11-libs/vte vala
+dev-libs/gobject-introspection doctool
+
+### gnome-glib-fam ###
+dev-libs/glib fam
+
+### gnome-music ###
+media-libs/libmediaart gtk -qt5
+
+### gnome-photos ###
+media-libs/gegl raw jpeg2k
+
+### gnome-shell ###
+gnome-base/gnome-shell nsplugin
+
+### gnome-user-share ###
+www-servers/apache apache2_mpms_prefork -threads
+dev-lang/php -threads
+
+### google-drive ###
+dev-ml/lablgtk gnomecanvas
+
+### gparted ###
+sys-block/gparted dmraid -f2fs fat hfs jfs -kde mdadm ntfs reiser4 reiserfs xfs udf
+
+### gpsd ###
+sci-geosciences/gpsd python
+
+### grilo ###
+media-plugins/grilo-plugins dvd -examples gnome-online-accounts vimeo youtube flickr freebox subtitles upnp-av thetvdb
+
+### grub ###
+sys-boot/grub device-mapper
+# for os-prober
+sys-boot/grub mount
+
+
+### gtk+ ###
+x11-libs/gtk+ broadway examples
+
+### gtk-doc ###
+dev-libs/libxml2 python
+
+### gvfs-mtp-fuse ###
+gnome-base/gvfs fuse bluray archive gphoto2 google zeroconf nfs
+
+### hugin ###
+media-libs/vigra openexr
+dev-libs/boost python
+
+### icaclient ###
+net-misc/icaclient nsplugin
+
+### icedtea-bin ###
+dev-java/icedtea-bin nsplugin
+dev-java/icedtea nsplugin
+dev-java/icedtea-web nsplugin
+
+### imagemagick ###
+# remove autotrace because it has a problem #619468
+media-gfx/imagemagick lqr webp opencl corefonts -autotrace
+
+### kdenlive ###
+# fftw for affine
+media-libs/mlt kdenlive frei0r fftw qt5 melt libsamplerate rtaudio lua python xine
+kde-apps/kdenlive handbook
+
+### kdevelop-for-plasma ###
+dev-util/kdevelop -gdbui
+dev-db/mysql client-libs
+
+### kicad ###
+dev-libs/boost context
+
+### ktorrentandstuff-for-plasma ###
+app-crypt/qca qt5
+kde-apps/kdebase-kioslaves minimal
+
+### layman ###
+app-portage/layman sync-plugin-portage mercurial
+
+### libdrm ###
+x11-libs/libdrm libkms
+
+### libreoffice ###
+app-office/libreoffice -branding google
+dev-libs/xmlsec nss
+
+### libsm ###
+
+### libusb ###
+dev-libs/libusb examples
+dev-python/pyusb examples
+
+### linphone ###
+media-libs/mediastreamer video
+
+### lxc ###
+app-emulation/lxc examples cgmanager doc
+
+### lxqt ###
+dev-qt/qtgui evdev
+sys-auth/polkit-qt qt5
+dev-libs/libpcre pcre16
+
+### mariadb ###
+dev-db/mariadb extraengine
+
+### mate ###
+mate-base/mate-menus python
+media-video/ffmpeg jpeg2k gsm vaapi
+
+### mediawiki ###
+dev-lang/php fpm xmlreader
+app-eselect/eselect-php fpm
+
+### megaglest ###
+x11-base/xorg-server xvfb
+
+### mlt ###
+# bug (which one?)
+media-libs/mlt -vdpau
+
+### modemmanager ###
+net-misc/modemmanager mbim qmi-newest
+
+### mtd ###
+media-sound/mpd soundcloud
+
+### nemiver ###
+dev-util/nemiver memoryview
+
+### netbeans ###
+dev-java/swing-layout source
+
+### net-tools ###
+sys-apps/net-tools old-output
+
+### networkmanager ###
+dev-libs/nss utils
+net-misc/networkmanager connection-sharing
+
+### no-brltty ###
+app-accessibility/orca -braille
+app-emulation/qemu -accessibility
+
+### notification-daemon ###
+virtual/notification-daemon -gnome
+
+### nvidia-drivers ###
+x11-drivers/nvidia-drivers uvm multilib -abi_x86_32
+
+### octave ###
+sci-mathematics/octave fftw gui gnuplot hdf5
+x11-libs/fltk xft
+media-gfx/imagemagick cxx
+
+
+### okular ###
+media-gfx/exiv2 xmp
+
+### openct ###
+dev-libs/openct pcsc-lite
+
+### openrc ###
+sys-apps/openrc -netifrc
+
+### openvswitch ###
+dev-python/twisted conch
+sys-apps/util-linux caps
+
+### oracle-jdk-bin ###
+# needed by cirqwizard, drop need for example tarball download
+dev-java/oracle-jdk-bin javafx -examples
+
+### owncloud ###
+dev-lang/php curl pdo xmlwriter sqlite zip
+dev-qt/qtwebkit printsupport
+
+### pcsc-lite ###
+sys-apps/pcsc-lite libusb -udev
+
+### php ###
+dev-lang/php gd apache2
+app-eselect/eselect-php apache2
+
+### pidgin ###
+#disable eds because of configure failure with 2.10.10 (somewhere in bugzilla)
+net-im/pidgin gnutls groupwise meanwhile -networkmanager prediction eds silc sasl kerberos 
+x11-plugins/pidgin-sipe voice telepathy openssl
+
+### ppp ###
+net-dialup/ppp dhcp radius
+
+### pulseaudio ###
+media-sound/pulseaudio native-headset ofono-headset equalizer
+
+### python ###
+dev-lang/python tk
+
+### qbittorrent ###
+net-p2p/qbittorrent webui
+
+### qemu ###
+app-emulation/qemu qemu_softmmu_targets_arm qemu_user_targets_arm qemu_softmmu_targets_aarch64 qemu_user_targets_aarch64 qemu_user_targets_x86_64
+
+### qt-creator ###
+dev-libs/botan threads
+
+### rosegarden ###
+media-libs/libsamplerate sndfile
+
+### rstudio ###
+dev-qt/qtsingleapplication qt5
+dev-qt/qtlockedfile qt5
+
+### rust ###
+sys-devel/llvm -multitarget
+
+### samba ###
+net-fs/cifs-utils ads
+net-fs/samba winbind client
+sys-libs/talloc python
+sys-libs/ntdb python
+sys-libs/tdb python
+sys-libs/tevent python
+app-crypt/heimdal -ssl
+
+### scribus ###
+dev-qt/qtcore icu
+
+### scummvm ###
+games-engines/scummvm mpeg2
+
+### simple-scan ###
+dev-libs/libgusb vala
+
+### skype ###
+dev-qt/qtwebkit -exceptions
+
+### slic3r ###
+x11-libs/wxGTK:3.0 gstreamer
+dev-lang/perl debug ithreads
+
+# PrusaSlicer
+>=media-gfx/openvdb-7.0.0 openvdb_abi_6 openvdb_abi_5
+sci-libs/nlopt cxx
+
+### steam ###
+games-util/steam-client-meta trayicon steamfonts
+
+### sumwars ###
+dev-games/ogre -examples
+dev-games/cegui ogre
+
+### supertux ###
+media-libs/sdl-mixer mod mikmod
+
+### synergy ###
+net-dns/avahi mdnsresponder-compat
+
+### systemd ###
+sys-apps/systemd nat http nat importd curl gcrypt lzma
+net-libs/libmicrohttpd epoll
+
+### tcl ###
+dev-lang/tcl threads debug
+
+### texlive ###
+app-text/texlive X epspdf extra games graphics humanities luatex metapost music omega pdfannotextractor png pstricks publishers science truetype xml l10n_nl
+app-text/texlive-core xetex
+media-libs/gd fontconfig
+
+### ushare ###
+media-video/ushare dlna
+
+### vinagre ###
+#to connect to winshit, but broken with freedrp-2
+net-misc/vinagre -rdp
+
+### virt-manager ###
+net-libs/gtk-vnc python
+net-misc/spice-gtk python usbredir
+app-emulation/libvirt-glib python
+
+### virtualbox-with-gui ###
+app-emulation/virtualbox qt5
+
+### vlc ###
+sys-libs/zlib minizip
+media-video/vlc httpd lua postproc chromecast
+
+### wammu ###
+app-mobilephone/gammu python
+
+### websocket-client-bug ###
+dev-python/websocket-client -examples
+
+### weston ###
+dev-libs/weston headless rdp -rpi screen-sharing -static-libs -test -unwind wayland-compositor xwayland
+
+
+### wireshark ###
+net-analyzer/wireshark lua gtk3
+
+### wpa_supplicant ###
+net-wireless/wpa_supplicant dbus readline -ssl ap eap-sim fasteap -gnutls p2p -ps3 -selinux -smartcard -wimax wps
+
+### xbmc ###
+dev-qt/qtdeclarative webkit
+
+### xen ###
+sys-devel/binutils -multitarget
+
+### xmlcopyeditor ###
+dev-libs/xerces-c icu
+
+### xtables-addons ###
+#compilation issue with chaos set
+net-firewall/xtables-addons -xtables_addons_chaos -xtables_addons_tarpit
+
+### youtube-dl ###
+net-misc/youtube-dl offensive
+
+### zlib-static-for-openwrtcc ###
+sys-libs/zlib static-libs
+net-libs/gnome-online-accounts vala
+dev-libs/libgweather vala
+media-libs/gsound vala
+
+### don't know
+
+### remmina for HSM
+net-misc/remmina rdp
+
+# for pyzmq
+net-libs/zeromq drafts
+
+#for better font rendering
+media-libs/freetype infinality
+
+#gnome-calculator
+x11-libs/gtksourceview vala
+
+#openshot
+>=dev-qt/qtmultimedia-5.11.2 widgets
+
+#qmapshack
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+dev-libs/libxml2 icu
+
+# gnome-boxes
+media-plugins/grilo-plugins tracker
+net-libs/gtk-vnc vala
+net-misc/spice-gtk vala
+app-emulation/qemu usbredir spice
+
+# needed for wayland support (webkit-gtk does not like opengl+gles2, so only for mutter)
+x11-wm/mutter gles2
+
+# needed for vino
+sys-apps/dbus user-session
+# and bluez needs same setting for user-session as dbus
+net-wireless/bluez user-session
+
+media-gfx/graphicsmagick imagemagick
+
+# needed for arduino
+>=dev-util/astyle-3.1-r2 java
+
+# otherwise dockerd fails with cgroup errors with new systemd
+sys-apps/systemd cgroup-hybrid
+
+# darktable
+>=sys-devel/gcc-9.2.0-r3 graphite
+
+# nfs-utils
+>=sys-fs/quota-4.05-r1 rpc
+
+# for rstudio
+=dev-java/validation-api-1.0.0 source
+
+# for mythtv
+dev-qt/qtsql mysql
+
+# for moodle
+>=dev-lang/php-7.4.3-r1 intl soap xmlrpc mysqli
+www-apps/moodle mysqli
+
+# kde-meta
+>=net-libs/telepathy-qt-0.9.8 farstream
+>=kde-apps/ktp-common-internals-19.12.3 otr
+>=sys-apps/xdg-desktop-portal-1.6.0 screencast
+>=media-plugins/gst-plugins-meta-1.14.3 v4l theora
+>=dev-qt/qtscript-5.14.1 scripttools
+>=dev-qt/qtmultimedia-5.14.1 qml
+>=kde-frameworks/kitemmodels-5.71.0 qml
+
+# blueman blocks gnome-bluetooth for some unknown reason
+mate-base/mate -bluetooth
+
+# teams
+>=media-video/ffmpeg-4.2.2 chromium
+
+# requests
+dev-python/six python_targets_python3_6
+dev-python/idna python_targets_python3_6
+
+# 32-bit steam overlay
+#>=x11-libs/libX11-1.6.9 abi_x86_32
+#>=x11-libs/libXau-1.0.9 abi_x86_32
+#>=x11-libs/libxcb-1.14 abi_x86_32
+#>=x11-libs/libXdmcp-1.1.3 abi_x86_32
+#>=virtual/pkgconfig-1 abi_x86_32
+#>=dev-util/pkgconfig-0.29.2 abi_x86_32
+#>=dev-libs/glib-2.64.3 abi_x86_32
+#>=dev-libs/libpcre-8.44 abi_x86_32
+#>=dev-libs/libffi-3.3-r1 abi_x86_32
+#>=sys-libs/zlib-1.2.11-r2 abi_x86_32
+#>=sys-apps/util-linux-2.35.2 abi_x86_32
+#>=virtual/libintl-0-r2 abi_x86_32
+#>=virtual/libiconv-0-r2 abi_x86_32
+#>=virtual/fam-0-r1 abi_x86_32
+#>=app-admin/gamin-0.1.10-r1 abi_x86_32
+#>=dev-libs/libgamin-0.1.10-r5 abi_x86_32
+#>=virtual/opengl-7.0-r2 abi_x86_32
+#>=media-libs/mesa-20.1.0_rc4 abi_x86_32
+#>=dev-libs/expat-2.2.9 abi_x86_32
+#>=x11-libs/libva-2.7.1 abi_x86_32
+#>=x11-libs/libvdpau-1.4 abi_x86_32
+#>=dev-libs/wayland-1.18.0 abi_x86_32
+#>=x11-libs/libdrm-2.4.100 abi_x86_32
+#>=x11-libs/libxshmfence-1.3-r1 abi_x86_32
+#>=x11-libs/libXdamage-1.1.5 abi_x86_32
+#>=x11-libs/libXext-1.3.4 abi_x86_32
+#>=x11-libs/libXxf86vm-1.1.4-r1 abi_x86_32
+#>=x11-libs/libXfixes-5.0.3-r1 abi_x86_32
+#>=app-arch/zstd-1.4.4-r4 abi_x86_32
+#>=sys-devel/llvm-10.0.0 abi_x86_32
+#>=x11-libs/libXrandr-1.5.2 abi_x86_32
+#>=x11-libs/libXrender-0.9.10-r1 abi_x86_32
+#>=sys-libs/ncurses-6.2-r1 abi_x86_32
+#>=dev-libs/libxml2-2.9.9-r3 abi_x86_32
+#>=dev-libs/icu-67.1 abi_x86_32
+#>=sys-libs/gpm-1.20.7-r2 abi_x86_32
+#>=x11-libs/libpciaccess-0.16 abi_x86_32
+#>=x11-libs/libva-vdpau-driver-0.7.4-r5 abi_x86_32
+#>=x11-libs/libva-intel-driver-2.4.0_pre1 abi_x86_32
+#>=virtual/libelf-3 abi_x86_32
+#>=dev-libs/elfutils-0.179 abi_x86_32
+#>=app-arch/bzip2-1.0.8-r1 abi_x86_32
+#>=dev-util/pkgconf-1.7.0 abi_x86_32
+#>=x11-base/xcb-proto-1.14-r1 abi_x86_32
+#>=media-libs/libglvnd-1.3.2 abi_x86_32
+
+# qtconsole -> ipython
+>=dev-python/QtPy-1.9.0-r2 gui printsupport
+
+# fwupd
+>=dev-libs/libjcat-0.1.3-r1 gpg pkcs7
+
+# rust
+net-misc/curl http2
+
+# qtconsole
+>=dev-python/setuptools_scm-4.1.2 python_targets_python3_6
+>=dev-python/setuptools-46.4.0-r2 python_targets_python3_6
+>=dev-python/certifi-10001 python_targets_python3_6
+
+# see what opencv can do
+media-libs/opencv -gtk3 opencvapps opencl examples threads
+
+# https://bugs.gentoo.org/702354
+media-gfx/shotwell -opencv
+
+# dev-util/ostree
+dev-util/ostree grub

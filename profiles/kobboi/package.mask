@@ -1,0 +1,31 @@
+# newer driver versions don't support GeForce GFX-560 on tanagra #
+>=x11-drivers/nvidia-drivers-391.0.0
+>=dev-util/nvidia-cuda-toolkit-9.2
+
+# requires nvidia-drivers I can't use
+>=media-libs/nv-codec-headers-9.1
+
+# requires the above nv-codec-headers
+>=media-video/ffmpeg-4.3
+
+
+
+# prefer ffmpeg over libav #
+media-video/libav
+
+####################################################################
+
+#>=sci-libs/tensorflow-2
+
+# https://bugs.gentoo.org/686374
+>sys-devel/autoconf-archive-2019
+
+# https://bugs.gentoo.org/698954
+>=dev-java/javatoolkit-0.6
+
+# https://bugs.gentoo.org/707898
+>=sys-libs/binutils-libs-2.34
+>=sys-devel/binutils-2.34
+
+>=sys-kernel/gentoo-kernel-5.5
+

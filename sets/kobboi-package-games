@@ -1,0 +1,32 @@
+games-action/bzflag
+games-action/extreme-tuxracer
+games-action/supertuxkart
+games-arcade/blobwars
+games-arcade/frozen-bubble
+games-arcade/supertux
+games-arcade/whichwayisup
+games-arcade/xscavenger
+games-arcade/xtux
+games-arcade/yarsrevenge
+games-board/crafty
+games-board/pokerth
+games-board/stockfish
+# https://bugs.gentoo.org/706924
+# games-emulation/advancemame
+games-emulation/dosbox
+games-engines/scummvm
+games-misc/cowsay
+games-misc/xcowsay
+games-puzzle/brainparty
+games-puzzle/enigma
+games-puzzle/gweled
+games-puzzle/pingus
+games-puzzle/pipepanic
+games-puzzle/wizznic
+games-puzzle/zaz
+games-rpg/drascula
+games-rpg/dreamweb
+#games-simulation/flightgear
+games-sports/torcs
+games-strategy/wesnoth
+games-puzzle/gnome2048

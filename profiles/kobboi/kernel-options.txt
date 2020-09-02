@@ -1,0 +1,13 @@
+net-misc/igmpproxy: CONFIG_IP_MROUTE:	 is not set when it should be.
+net-libs/libnetfilter_cttimeout: CONFIG_NF_CT_NETLINK_TIMEOUT:	 is not set when it should be.
+net-misc/openvswitch: CONFIG_NET_SCH_INGRESS
+qemu
+ *   You must enable KVM in your kernel to continue
+ *   You must enable VHOST_NET to have vhost-net support
+ *   If you have an Intel CPU, you must enable KVM_INTEL in your kernel configuration.
+docker:  *   CONFIG_BTRFS_FS_POSIX_ACL:	 is not set when it should be.
+bluez: CONFIG_RFKILL:  is not set when it should be.
+ell: CONFIG_KEY_DH_OPERATIONS:  is not set when it should be
+conntrack-tools:   CONFIG_NF_CONNTRACK_EVENTS:	 is not set when it should be.
+lm_sensors: CONFIG_I2C_CHARDEV 
+bootchartd2 :  *   CONFIG_PROC_EVENTS:	 is not set when it should be.

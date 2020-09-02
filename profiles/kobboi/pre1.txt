@@ -1,0 +1,8 @@
+christophe@boll /var/cache/kobboi/gentoo/profiles/kobboi/tanagra/pre1 [master] $ cat make.defaults 
+USE="-samba -cups"
+
+christophe@boll /var/cache/kobboi/gentoo/profiles/kobboi/tanagra/pre1 [master] $ cat package.use 
+sys-libs/ncurses -gpm
+media-libs/mesa -vaapi
+media-libs/opencv -ffmpeg
+

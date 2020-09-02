@@ -1,0 +1,8 @@
+CFLAGS="${CFLAGS} -g -ggdb"
+CXXFLAGS="${CXXFLAGS} -g -ggdb"
+PORTAGE_TMPDIR="/var/tmp"
+DISTDIR="/usr/portage/distfiles"
+PKGDIR="/usr/portage/packages"
+FEATURES="buildpkg installsources splitdebug compressdebug"
+#debug files are in the tbz2, so we'll just extract them to the filesystem when necessary
+#INSTALL_MASK=""
