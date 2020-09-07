@@ -730,3 +730,7 @@ media-gfx/shotwell -opencv
 
 # dev-util/ostree
 dev-util/ostree grub
+
+# media-gfx/fbida
+>=x11-libs/motif-2.3.8-r1 xft
+
