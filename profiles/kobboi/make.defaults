@@ -36,6 +36,6 @@ INPUT_DEVICES="keyboard mouse synaptics libinput"
 ALSA_CARDS="hda-intel"
 FEATURES="-parallel-fetch parallel-install"
 
-GENTOO_MIRRORS=ftp://10.8.0.1/kobboi-linux/2020.05
+GENTOO_MIRRORS=ftp://kobboi-linux:KakBoyPoop@10.8.0.1/kobboi-linux/2020.05
 
 DCO_SIGNED_OFF_BY="Christophe Lermytte <gentoo@lermytte.be>"
