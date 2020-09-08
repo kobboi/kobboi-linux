@@ -1,4 +1,4 @@
 #PORTAGE_BINHOST="ssh://christophe@10.8.0.6/usr/portage/packages"
-PORTAGE_BINHOST="ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.05-packages"
+PORTAGE_BINHOST="ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.05/packages"
 INSTALL_MASK="/usr/src/debug /usr/lib/debug"
 
