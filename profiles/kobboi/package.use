@@ -165,6 +165,7 @@ sys-devel/distcc crossdev
 
 ### docker ###
 app-emulation/docker doc -aufs btrfs -device-mapper -seccomp
+app-emulation/containerd btrfs
 sys-libs/libseccomp static-libs
 sys-process/tini static
 
