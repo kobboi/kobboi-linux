@@ -297,7 +297,6 @@ net-print/hplip
 net-proxy/squid
 net-proxy/tinyproxy
 net-proxy/tsocks
-net-voip/telepathy-haze
 net-vpn/networkmanager-openconnect
 net-vpn/networkmanager-openvpn
 net-vpn/networkmanager-pptp
