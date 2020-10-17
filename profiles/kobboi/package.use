@@ -726,6 +726,8 @@ net-misc/curl http2
 
 # see what opencv can do
 media-libs/opencv -gtk3 opencvapps opencl examples threads
+# https://bugs.gentoo.org/749681
+media-libs/opencv contribdnn dnnsamples
 
 # https://bugs.gentoo.org/702354
 media-gfx/shotwell -opencv
