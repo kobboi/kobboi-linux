@@ -17,9 +17,6 @@ media-video/libav
 
 #>=sci-libs/tensorflow-2
 
-# https://bugs.gentoo.org/686374
->sys-devel/autoconf-archive-2019
-
 # https://bugs.gentoo.org/698954
 >=dev-java/javatoolkit-0.6
 
