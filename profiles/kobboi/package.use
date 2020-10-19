@@ -154,8 +154,6 @@ dev-libs/libsavitar python
 ### digikam ###
 kde-apps/marble plasma
 media-libs/opencv contrib
-# https://bugs.gentoo.org/666716
-dev-games/ogre experimental
 
 ### disable-qt-support ###
 dev-util/cmake -qt5
