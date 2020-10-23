@@ -738,3 +738,6 @@ dev-util/ostree grub
 
 # required by jack2[opus]
 >=media-libs/opus-1.3.1-r1 custom-modes
+
+# https://bugs.gentoo.org/750863
+media-video/transcode -v4l
