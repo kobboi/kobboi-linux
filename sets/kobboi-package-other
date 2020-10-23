@@ -2,3 +2,4 @@ kde-apps/kde-meta
 dev-util/ostree
 app-emulation/xen
 app-emulation/xen-tools
+app-emulation/lxc
