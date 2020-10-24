@@ -17,9 +17,6 @@ media-video/libav
 
 #>=sci-libs/tensorflow-2
 
-# https://bugs.gentoo.org/698954
->=dev-java/javatoolkit-0.6
-
 # https://bugs.gentoo.org/707898
 >=sys-libs/binutils-libs-2.34
 >=sys-devel/binutils-2.34
