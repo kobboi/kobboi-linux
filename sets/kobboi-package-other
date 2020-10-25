@@ -3,5 +3,5 @@ dev-util/ostree
 app-emulation/xen
 app-emulation/xen-tools
 app-emulation/lxc
-app-mail/kmail
+kde-apps/kmail
 gnome-extra/evolution-ews
