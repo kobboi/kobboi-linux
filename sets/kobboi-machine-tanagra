@@ -152,7 +152,6 @@ dev-util/uncrustify
 dev-util/valgrind
 dev-vcs/cvs
 dev-vcs/git
-dev-vcs/git-annex
 dev-vcs/git-flow
 dev-vcs/gitg
 dev-vcs/gitolite
