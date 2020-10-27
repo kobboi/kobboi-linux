@@ -1,4 +1,5 @@
-kde-apps/kde-meta
+kde-plasma/plasma-meta
+kde-apps/kde-apps-meta
 dev-util/ostree
 app-emulation/xen
 app-emulation/xen-tools
