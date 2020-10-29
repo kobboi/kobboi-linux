@@ -6,3 +6,5 @@ app-emulation/xen-tools
 app-emulation/lxc
 kde-apps/kmail
 gnome-extra/evolution-ews
+media-gfx/krita
+media-gfx/opentoonz
