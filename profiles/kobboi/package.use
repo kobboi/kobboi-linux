@@ -609,6 +609,7 @@ media-plugins/grilo-plugins tracker
 net-libs/gtk-vnc vala
 net-misc/spice-gtk vala
 app-emulation/qemu usbredir spice
+net-dns/dnsmasq script
 
 # needed for wayland support (webkit-gtk does not like opengl+gles2, so only for mutter)
 x11-wm/mutter gles2
