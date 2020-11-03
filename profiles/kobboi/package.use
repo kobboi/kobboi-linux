@@ -716,8 +716,6 @@ net-misc/curl http2
 
 # see what opencv can do
 media-libs/opencv -gtk3 opencvapps opencl examples threads
-# https://bugs.gentoo.org/749681
-media-libs/opencv contribdnn dnnsamples
 
 # https://bugs.gentoo.org/702354
 media-gfx/shotwell -opencv
@@ -730,6 +728,3 @@ dev-util/ostree grub
 
 # required by jack2[opus]
 >=media-libs/opus-1.3.1-r1 custom-modes
-
-# https://bugs.gentoo.org/750863
-media-video/transcode -v4l
