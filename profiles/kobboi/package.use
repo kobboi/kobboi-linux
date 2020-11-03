@@ -153,7 +153,7 @@ dev-libs/libsavitar python
 
 ### digikam ###
 kde-apps/marble plasma
-media-libs/opencv contrib
+media-libs/opencv contrib contribdnn
 
 ### disable-qt-support ###
 dev-util/cmake -qt5
