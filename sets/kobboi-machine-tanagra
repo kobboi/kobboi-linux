@@ -153,6 +153,7 @@ dev-util/valgrind
 dev-vcs/cvs
 dev-vcs/git
 dev-vcs/git-flow
+dev-vcs/git-lfs
 dev-vcs/gitg
 dev-vcs/gitolite
 dev-vcs/qgit
