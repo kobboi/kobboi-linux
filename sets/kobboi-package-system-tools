@@ -1,3 +1,9 @@
 sys-apps/msr-tools
 sys-fs/ncdu
 sys-apps/fwupd
+app-benchmarks/bonnie
+app-benchmarks/bonnie++
+app-benchmarks/cpuburn
+app-benchmarks/geekbench
+app-benchmarks/ramspeed
+app-benchmarks/sysbench
