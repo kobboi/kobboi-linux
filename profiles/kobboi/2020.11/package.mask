@@ -28,6 +28,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/744739
 >app-editors/pluma-1.24.0
-
-# "No Bluetooth found. Plug in a dongle to use bluetooth"
->=gnome-base/gnome-settings-daemon-3.38
