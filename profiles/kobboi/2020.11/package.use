@@ -412,6 +412,7 @@ media-gfx/imagemagick cxx
 
 ### okular ###
 media-gfx/exiv2 xmp
+kde-apps/okular chm
 
 ### openct ###
 dev-libs/openct pcsc-lite
