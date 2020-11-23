@@ -7,3 +7,4 @@ app-benchmarks/cpuburn
 app-benchmarks/geekbench
 app-benchmarks/ramspeed
 app-benchmarks/sysbench
+sys-apps/hwloc
