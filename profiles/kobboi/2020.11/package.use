@@ -737,3 +737,4 @@ dev-vcs/gitg python_targets_python3_7
 net-analyzer/scapy python_targets_python3_7
 net-misc/openvswitch  python_targets_python3_7
 net-misc/pulseaudio-dlna python_targets_python3_7
+app-editors/pluma python_single_target_python3_7
