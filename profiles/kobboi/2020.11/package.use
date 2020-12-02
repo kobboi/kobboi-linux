@@ -736,7 +736,9 @@ media-video/pitivi python_single_target_python3_7
 dev-vcs/gitg python_targets_python3_7
 net-analyzer/scapy python_targets_python3_7
 net-misc/openvswitch  python_targets_python3_7
-net-misc/pulseaudio-dlna python_targets_python3_7
 app-editors/pluma python_single_target_python3_7
 media-libs/gstreamer-editing-services python_targets_python3_7
+
+net-misc/pulseaudio-dlna python_targets_python3_7
 dev-python/namespace-google python_targets_python3_7
+dev-python/six python_targets_python3_7
