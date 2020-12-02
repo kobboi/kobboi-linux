@@ -735,3 +735,4 @@ dev-util/ostree grub
 media-video/pitivi python_single_target_python3_7
 dev-vcs/gitg python_targets_python3_7
 net-analyzer/scapy python_targets_python3_7
+net-misc/openvswitch  python_targets_python3_7
