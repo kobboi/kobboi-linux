@@ -744,3 +744,4 @@ dev-python/namespace-google python_targets_python3_7
 dev-python/six python_targets_python3_7
 dev-python/protobuf-python python_targets_python3_7
 dev-python/urllib3
+dev-python/cryptography
