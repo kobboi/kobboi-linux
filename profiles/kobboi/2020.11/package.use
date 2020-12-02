@@ -731,5 +731,6 @@ dev-util/ostree grub
 # required by jack2[opus]
 >=media-libs/opus-1.3.1-r1 custom-modes
 
-# pitivi does not support pythony_8 uet
+# these do not support pythony_8 yet
 media-video/pitivi python_single_target_python3_7
+dev-vcs/gitg python_targets_python3_7
