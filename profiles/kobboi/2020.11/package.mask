@@ -28,3 +28,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/744739
 >app-editors/pluma-1.24.0
+
+# https://bugs.gentoo.org/755743
+>=dev-util/cmake-3.19
