@@ -1,0 +1,5 @@
+# Provides the dot tool to create graphs
+media-gfx/graphviz
+
+media-gfx/gimp
+media-gfx/imagemagick
