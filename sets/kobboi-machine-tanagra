@@ -398,7 +398,6 @@ www-client/firefox
 www-client/google-chrome
 www-client/google-chrome-unstable
 www-client/lynx
-www-plugins/adobe-flash
 www-servers/apache
 www-servers/lighttpd
 x11-apps/xev
