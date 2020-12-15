@@ -212,6 +212,7 @@ media-sound/alsa-utils
 media-sound/ardour
 media-sound/audacity
 media-sound/gnome-music
+media-sound/gpodder
 media-sound/hydrogen
 media-sound/lame
 media-sound/pavucontrol
