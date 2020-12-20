@@ -45,3 +45,8 @@ www-client/google-chrome
 x11-plugins/purple-facebook
 #to test if errors are because of gcc-10
 sys-devel/gcc:9.3.0
+#Brother DCP-7025 printer part
+net-print/brother-genml1-bin
+#Brother DCP-7025 scanner part
+media-gfx/brother-dcp7025-bin
+
