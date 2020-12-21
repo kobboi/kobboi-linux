@@ -731,6 +731,8 @@ dev-util/ostree grub
 # required by jack2[opus]
 >=media-libs/opus-1.3.1-r1 custom-modes
 
+>=app-arch/xz-utils-5.2.5 abi_x86_32 static-libs
+
 # not everything supports python3_8 yet, so
 # a those (and their dependencies) need python3_7
 media-video/pitivi python_single_target_python3_7
