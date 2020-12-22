@@ -797,3 +797,5 @@ dev-python/protobuf-python python_targets_python3_7
 >=dev-python/PyQt5-sip-4.19.24 python_targets_python3_7
 >=dev-python/setuptools-51.0.0 python_targets_python3_7
 >=dev-python/setuptools_scm-5.0.0 python_targets_python3_7
+>=dev-python/ovs-2.13.0 python_targets_python3_7
+>=dev-python/sortedcontainers-2.3.0 python_targets_python3_7
