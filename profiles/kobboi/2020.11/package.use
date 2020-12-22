@@ -733,6 +733,9 @@ dev-util/ostree grub
 
 >=app-arch/xz-utils-5.2.5 abi_x86_32 static-libs
 
+# spyder
+>=dev-python/QtPy-1.9.0-r2 webengine
+
 # not everything supports python3_8 yet, so
 # a those (and their dependencies) need python3_7
 media-video/pitivi python_single_target_python3_7
