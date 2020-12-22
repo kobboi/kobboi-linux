@@ -1,5 +1,6 @@
 @kobboi-machine-base
 @kobboi-package-games
+@kobboi-package-develop
 app-admin/chrpath
 app-admin/graylog
 app-admin/keepass
