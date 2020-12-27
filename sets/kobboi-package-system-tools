@@ -9,3 +9,4 @@ app-benchmarks/ramspeed
 app-benchmarks/sysbench
 sys-apps/hwloc
 sys-block/fio
+app-metrics/collectd
