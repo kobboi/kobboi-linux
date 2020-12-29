@@ -34,3 +34,6 @@ media-video/libav
 
 # 1.28.0_rc1 has a fetching problem
 >app-emulation/docker-compose-1.27.4
+
+# https://bugs.gentoo.org/761975
+>=media-libs/opencv-4.5.1
