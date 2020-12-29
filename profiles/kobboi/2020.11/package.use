@@ -739,6 +739,7 @@ dev-util/ostree grub
 dev-python/versioneer python_targets_python3_7 python_targets_python3_8
 
 app-office/gnucash aqbanking ofx
+net-libs/aqbanking ofx
 
 # not everything supports python3_8 yet, so
 # a those (and their dependencies) need python3_7
