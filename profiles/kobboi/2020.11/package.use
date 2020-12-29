@@ -738,6 +738,8 @@ dev-util/ostree grub
 >=dev-python/QtPy-1.9.0-r2 webengine
 dev-python/versioneer python_targets_python3_7 python_targets_python3_8
 
+app-office/gnucash aqbanking ofx
+
 # not everything supports python3_8 yet, so
 # a those (and their dependencies) need python3_7
 media-video/pitivi python_single_target_python3_7
