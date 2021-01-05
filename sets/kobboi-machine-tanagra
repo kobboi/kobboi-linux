@@ -27,6 +27,7 @@ app-editors/nano
 app-editors/vim
 app-emulation/bochs
 app-emulation/docker
+app-emulation/docker-cli
 app-emulation/docker-compose
 app-emulation/qemu
 app-emulation/vagrant
