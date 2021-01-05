@@ -37,3 +37,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/761975
 >=media-libs/opencv-4.5.1
+
+# https://bugs.gentoo.org/763849
+>=media-libs/qhull-2020
