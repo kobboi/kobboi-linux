@@ -1,1 +1,3 @@
-dev-python/pika
+# https://bugs.gentoo.org/764122
+app-emulation/docker
+app-emulation/docker-cli
