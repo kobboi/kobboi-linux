@@ -21,7 +21,8 @@ media-video/libav
 >=sys-libs/binutils-libs-2.34
 >=sys-devel/binutils-2.34
 
->=sys-kernel/gentoo-kernel-5.5
+#>=sys-kernel/gentoo-kernel-5.5
+>=virtual/dist-kernel-5.5
 
 # https://bugs.gentoo.org/745135
 >mate-base/mate-applets-1.24.0
