@@ -35,7 +35,6 @@ DEPEND="${RDEPEND}
 S="${WORKDIR}/PrusaSlicer-version_${PV}"
 
 src_prepare() {
-  epatch "${FILESDIR}/boost-1.73.patch"
   pushd "${WORKDIR}/PrusaSlicer-version_${PV}" || die
   eapply_user
   popd || die
