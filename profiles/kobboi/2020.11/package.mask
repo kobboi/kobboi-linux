@@ -8,9 +8,7 @@
 # requires the above nv-codec-headers
 >=media-video/ffmpeg-4.3
 
-
-
-# prefer ffmpeg over libav #
+# prefer ffmpeg over libav
 media-video/libav
 
 ####################################################################
@@ -35,6 +33,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/761975
 >=media-libs/opencv-4.5.1
-
-# https://bugs.gentoo.org/763849
->=media-libs/qhull-2020
