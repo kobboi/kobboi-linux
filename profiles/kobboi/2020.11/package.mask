@@ -15,10 +15,6 @@ media-video/libav
 
 #>=sci-libs/tensorflow-2
 
-# https://bugs.gentoo.org/707898
->=sys-libs/binutils-libs-2.34
->=sys-devel/binutils-2.34
-
 >=sys-kernel/gentoo-kernel-5.5
 >=virtual/dist-kernel-5.5
 
