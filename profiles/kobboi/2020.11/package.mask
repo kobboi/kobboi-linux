@@ -21,9 +21,6 @@ media-video/libav
 # https://bugs.gentoo.org/745135
 >mate-base/mate-applets-1.24.0
 
-# https://bugs.gentoo.org/744739
->app-editors/pluma-1.24.0
-
 # 1.28.0_rc1 has a fetching problem
 >app-emulation/docker-compose-1.27.4
 
