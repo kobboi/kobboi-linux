@@ -817,3 +817,8 @@ dev-python/protobuf-python python_targets_python3_7
 >=dev-python/pathlib2-2.3.5-r1 python_targets_python3_7
 >=dev-python/xcffib-0.11.1 python_targets_python3_7
 >=dev-python/cppy-1.1.0 python_targets_python3_7
+>=dev-python/certifi-10001-r1 python_targets_python3_7
+>=dev-python/pyroute2-0.5.14 python_targets_python3_7
+>=dev-python/pychromecast-4.1.0 python_targets_python3_7
+>=dev-python/casttube-0.2.0 python_targets_python3_7
+
