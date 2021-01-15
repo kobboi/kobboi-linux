@@ -261,6 +261,7 @@ net-fs/sshfs
 net-ftp/lftp
 net-ftp/vsftpd
 net-im/bitlbee
+net-im/bitlbee-facebook
 net-im/pidgin
 net-im/slack
 net-im/teams
