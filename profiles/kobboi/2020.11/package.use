@@ -267,7 +267,7 @@ media-libs/gegl raw jpeg2k
 gnome-base/gnome-shell nsplugin
 
 ### gnome-user-share ###
-www-servers/apache apache2_mpms_prefork -threads
+www-servers/apache -threads
 dev-lang/php -threads
 
 ### google-drive ###
