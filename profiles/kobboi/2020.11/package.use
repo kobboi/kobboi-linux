@@ -393,6 +393,9 @@ sys-apps/net-tools old-output
 dev-libs/nss utils
 net-misc/networkmanager connection-sharing
 
+# networkmanager-l2tp
+=net-dialup/ppp-2.4.8-r1 eap-tls
+
 ### no-brltty ###
 app-accessibility/orca -braille
 app-emulation/qemu -accessibility
