@@ -823,3 +823,4 @@ dev-python/protobuf-python python_targets_python3_7
 >=dev-python/casttube-0.2.0 python_targets_python3_7
 
 sys-cluster/openstack-meta cinder glance heat keystone neutron nova placement swift
+sys-cluster/cinder sqlite
