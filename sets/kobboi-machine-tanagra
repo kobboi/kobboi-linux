@@ -302,6 +302,7 @@ net-print/hplip
 net-proxy/squid
 net-proxy/tinyproxy
 net-proxy/tsocks
+net-vpn/networkmanager-l2tp
 net-vpn/networkmanager-openconnect
 net-vpn/networkmanager-openvpn
 net-vpn/networkmanager-pptp
