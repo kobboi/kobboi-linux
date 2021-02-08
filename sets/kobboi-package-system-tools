@@ -10,3 +10,4 @@ app-benchmarks/sysbench
 sys-apps/hwloc
 sys-block/fio
 app-metrics/collectd
+sys-apps/fwupd
