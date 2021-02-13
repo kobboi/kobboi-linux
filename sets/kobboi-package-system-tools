@@ -12,3 +12,4 @@ sys-block/fio
 app-metrics/collectd
 sys-apps/fwupd
 app-misc/OpenRGB
+sys-process/parallel
