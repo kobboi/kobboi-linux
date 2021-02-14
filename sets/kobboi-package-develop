@@ -17,3 +17,4 @@ dev-python/chart-studio
 dev-python/pandas
 dev-python/numpy
 dev-python/seaborn
+app-editors/visual-studio-code
