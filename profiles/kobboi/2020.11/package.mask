@@ -23,3 +23,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/739444
 >=gnome-extra/filemanager-actions-3.4
+
+>=dev-libs/glib-2.67
+>=dev-util/gdbus-codegen-2.67
