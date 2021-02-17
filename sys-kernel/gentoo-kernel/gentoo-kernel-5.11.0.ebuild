@@ -54,10 +54,10 @@ PDEPEND="
 	>=virtual/dist-kernel-${PV}"
 
 src_prepare() {
-	local PATCHES=(
-		# meh, genpatches have no directory
-		"${WORKDIR}"/*.patch
-	)
+#	local PATCHES=(
+#		# meh, genpatches have no directory
+#		"${WORKDIR}"/*.patch
+#	)
 	default
 
 	# prepare the default config
