@@ -656,6 +656,7 @@ www-apps/moodle mysqli
 >=dev-qt/qtmultimedia-5.14.1 qml
 >=kde-frameworks/kitemmodels-5.71.0 qml
 >=kde-frameworks/prison-5.75.0 qml
+>=net-firewall/nftables-0.9.8 python json xtables
 
 # blueman blocks gnome-bluetooth for some unknown reason
 mate-base/mate -bluetooth
