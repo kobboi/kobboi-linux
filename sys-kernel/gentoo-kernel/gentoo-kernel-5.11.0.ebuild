@@ -10,7 +10,7 @@ GENPATCHES_P=genpatches-${PV%.*}-$(( ${PV##*.} + 2 ))
 # https://koji.fedoraproject.org/koji/packageinfo?packageID=8
 CONFIG_VER=5.11.0
 CONFIG_HASH=d24ad453a6273ee9dec91d3d7caf072b8a2817e3
-# GENTOO_CONFIG_VER=5.10.7
+GENTOO_CONFIG_VER=5.10.7
 
 DESCRIPTION="Linux kernel built with Gentoo patches"
 HOMEPAGE="https://www.kernel.org/"
@@ -85,8 +85,8 @@ src_prepare() {
 #	local merge_configs=(
 #		"${WORKDIR}/gentoo-kernel-config-${GENTOO_CONFIG_VER}"/base.config
 #	)
-#	use debug || merge_configs+=(
-#		"${WORKDIR}/gentoo-kernel-config-${GENTOO_CONFIG_VER}"/no-debug.config
-#	)
+	use debug || merge_configs+=(
+		"${WORKDIR}/gentoo-kernel-config-${GENTOO_CONFIG_VER}"/no-debug.config
+	)
 	kernel-build_merge_configs "${merge_configs[@]}"
 }
