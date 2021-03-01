@@ -786,6 +786,7 @@ dev-python/protobuf-python python_targets_python3_7
 >=dev-python/psutil-5.7.3 python_targets_python3_7
 >=dev-python/appdirs-1.4.4-r1 python_targets_python3_7
 >=dev-python/twisted-20.3.0 python_targets_python3_7
+dev-python/bcrypt python_targets_python3_7
 >=dev-python/attrs-20.3.0 python_targets_python3_7
 >=dev-python/automat-20.2.0 python_targets_python3_7
 >=dev-python/constantly-15.1.0-r1 python_targets_python3_7
