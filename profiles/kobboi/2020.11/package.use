@@ -501,8 +501,10 @@ x11-libs/wxGTK:3.0 gstreamer
 dev-lang/perl debug ithreads
 
 # PrusaSlicer
->=media-gfx/openvdb-7.0.0 openvdb_abi_6 openvdb_abi_5
-sci-libs/nlopt cxx
+#>=media-gfx/openvdb-7.0.0 openvdb_abi_6 openvdb_abi_5
+#sci-libs/nlopt cxx
+# prusaslicer
+>=media-libs/qhull-2020.2-r3 static-libs
 
 ### steam ###
 games-util/steam-client-meta trayicon steamfonts
