@@ -1,6 +1,10 @@
 INSTALL_MASK="/usr/src/debug /usr/lib/debug"
 
-CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
-CFLAGS="-O2 -march=znver2 -pipe"
-CXXFLAGS="-O2 -march=znver2 -pipe"
+COMMON_FLAGS="-O2 -march=znver2 -pipe"
 
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
