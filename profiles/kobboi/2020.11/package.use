@@ -833,3 +833,7 @@ dev-python/bcrypt python_targets_python3_7
 sys-cluster/openstack-meta cinder glance heat keystone neutron nova placement swift
 sys-cluster/cinder sqlite
 sys-cluster/placement sqlite
+
+# chromium
+>=net-libs/nodejs-15.11.0 inspector
+
