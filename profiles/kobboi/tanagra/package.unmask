@@ -1,0 +1,2 @@
+# we don't need support for old nvidia cards on tanagra
+media-video/ffmpeg
