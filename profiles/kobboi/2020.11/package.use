@@ -837,3 +837,6 @@ sys-cluster/placement sqlite
 # chromium
 >=net-libs/nodejs-15.11.0 inspector
 
+# flatpak
+>=dev-util/ostree-2020.8 curl
+
