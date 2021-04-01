@@ -11,15 +11,6 @@
 # prefer ffmpeg over libav
 media-video/libav
 
-####################################################################
-
-#>=sci-libs/tensorflow-2
-
 >=sys-kernel/gentoo-kernel-5.5
 >=virtual/dist-kernel-5.5
 
-# 1.28.0_rc1 has a fetching problem
->app-emulation/docker-compose-1.27.4
-
-# https://bugs.gentoo.org/739444
->=gnome-extra/filemanager-actions-3.4
