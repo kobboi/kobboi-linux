@@ -14,3 +14,5 @@ media-video/libav
 >=sys-kernel/gentoo-kernel-5.5
 >=virtual/dist-kernel-5.5
 
+# https://bugs.gentoo.org/779136
+>=gnome-extra/filemanager-actions-3.4
