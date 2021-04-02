@@ -8,3 +8,4 @@ kde-apps/kmail
 gnome-extra/evolution-ews
 media-gfx/krita
 app-emulation/snapd
+sys-apps/flatpak
