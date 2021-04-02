@@ -1,7 +1,8 @@
 app-emulation/virtualbox
 app-emulation/bochs
 app-emulation/qemu
-dev-python/spyder
+# crap upgrade path wrt flakes and pycodestyle
+#dev-python/spyder
 dev-util/cutter
 dev-lang/clojure
 dev-lang/go
