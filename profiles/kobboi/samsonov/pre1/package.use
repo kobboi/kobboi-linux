@@ -2,3 +2,4 @@ sys-libs/ncurses -gpm
 dev-lang/mono minimal
 net-dns/avahi -gtk
 media-libs/mesa -vaapi
+dev-lang/python -tk
