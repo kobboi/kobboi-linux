@@ -17,7 +17,7 @@ COMMON_DEPEND="dev-libs/glib:2"
 RDEPEND="${COMMON_DEPEND}
 	app-eselect/eselect-gnome-shell-extensions
 	>=dev-libs/gjs-1.48
-	=gnome-base/gnome-shell-3.38*
+	=gnome-base/gnome-shell-40.0*
 	gnome-base/gvfs
 	gnome-extra/evolution-data-server
 	|| ( media-libs/libcanberra media-libs/gsound )
