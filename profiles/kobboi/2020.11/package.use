@@ -840,3 +840,6 @@ sys-cluster/placement sqlite
 # flatpak
 >=dev-util/ostree-2020.8 curl
 
+# evolution(-data-server)
+>=dev-libs/libgdata-0.18.1 vala
+
