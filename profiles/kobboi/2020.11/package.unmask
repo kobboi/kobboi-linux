@@ -1,0 +1,20 @@
+# GNOME 40 and related
+dev-libs/glib
+dev-util/gdbus-codegen
+dev-util/glib-utils
+net-libs/glib-networking
+gnome-base/gnome-shell
+gnome-extra/gnome-shell-extensions
+x11-wm/mutter
+gui-libs/gtk
+x11-libs/pango
+dev-libs/gobject-introspection
+dev-libs/gobject-introspection-common
+>=app-misc/tracker-3
+>=app-misc/tracker-miners-3
+>=gnome-base/nautilus-40
+>=sys-process/gnome-usage-3.38
+>=media-plugins/grilo-plugins-0.3.13
+>=media-sound/gnome-music-40
+>=media-gfx/gnome-photos-40
+dev-libs/libgweather
