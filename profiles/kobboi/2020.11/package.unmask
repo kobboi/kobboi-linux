@@ -18,3 +18,4 @@ dev-libs/gobject-introspection-common
 >=media-sound/gnome-music-40
 >=media-gfx/gnome-photos-40
 dev-libs/libgweather
+gnome-extra/gnome-calendar
