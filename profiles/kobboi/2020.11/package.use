@@ -843,3 +843,7 @@ sys-cluster/placement sqlite
 # evolution(-data-server)
 >=dev-libs/libgdata-0.18.1 vala
 
+# totem/rygel
+>=media-libs/libmediaart-1.9.4 vala
+>=net-libs/gssdp-1.2.3 vala
+>=net-libs/gupnp-1.2.4 vala
