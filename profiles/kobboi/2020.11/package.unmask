@@ -22,3 +22,7 @@ net-misc/rygel
 sys-process/gnome-usage
 x11-libs/pango
 x11-wm/mutter
+>=dev-libs/vala-common-0.51
+dev-lang/vala:0.52
+>=games-board/gnome-chess-40
+gnome-base/gnome-settings-daemon
