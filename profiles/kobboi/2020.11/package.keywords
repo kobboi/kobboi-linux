@@ -7,3 +7,4 @@ cross-avr/gdb * ~* -amd64 -~amd64
 dev-lang/ruby -~amd64
 
 media-gfx/openscad *
+media-sound/ardour *
