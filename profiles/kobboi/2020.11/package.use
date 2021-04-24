@@ -847,3 +847,7 @@ sys-cluster/placement sqlite
 >=media-libs/libmediaart-1.9.4 vala
 >=net-libs/gssdp-1.2.3 vala
 >=net-libs/gupnp-1.2.4 vala
+
+# mysql-workbench
+>=net-libs/libssh-0.9.5 server
+

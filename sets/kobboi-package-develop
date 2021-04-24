@@ -20,3 +20,4 @@ dev-python/numpy
 dev-python/seaborn
 app-editors/visual-studio-code
 dev-embedded/platformio
+dev-db/mysql-workbench
