@@ -6,5 +6,4 @@ cross-avr/gdb * ~* -amd64 -~amd64
 # don't use unstable ruby to avoid dependency resolution hell
 dev-lang/ruby -~amd64
 
-media-gfx/openscad *
 media-sound/ardour *
