@@ -471,6 +471,7 @@ media-libs/libsamplerate sndfile
 ### rstudio ###
 dev-qt/qtsingleapplication qt5
 dev-qt/qtlockedfile qt5
+=dev-java/validation-api-1.0.0-r1 source
 
 ### rust ###
 sys-devel/llvm -multitarget
