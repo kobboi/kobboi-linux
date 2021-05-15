@@ -19,3 +19,6 @@ media-video/libav
 
 # prusaslicer 2.3.0 needs ilmbase, which this version blocks
 >=media-libs/openexr-3
+
+# sphinx-4 is breaking at least openvswitch-2.14.1 but others too (see blocker bug on bgo)
+>=dev-python/sphinx-4
