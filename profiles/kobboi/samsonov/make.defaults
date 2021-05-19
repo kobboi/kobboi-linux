@@ -1,10 +1,12 @@
-CFLAGS="${CFLAGS} -g -ggdb"
-CXXFLAGS="${CXXFLAGS} -g -ggdb"
-PORTAGE_TMPDIR="/var/tmp"
-DISTDIR="/usr/portage/distfiles"
-PKGDIR="/usr/portage/packages"
-FEATURES="buildpkg installsources splitdebug compressdebug"
-#debug files are in the tbz2, so we'll just extract them to the filesystem when necessary
-#INSTALL_MASK=""
+INSTALL_MASK="/usr/src/debug /usr/lib/debug"
+
+COMMON_FLAGS="-O2 -march=skylake -pipe -g -ggdb"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
 
 CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 sse3 sse4_1 sse4_2 ssse3"
+
+FEATURES="buildpkg installsources splitdebug compressdebug"
