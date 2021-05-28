@@ -98,7 +98,7 @@ dev-lisp/clisp
 dev-perl/DBD-SQLite
 dev-perl/Spreadsheet-WriteExcel
 dev-python/ansi2html
-dev-python/awscli
+app-admin/awscli
 dev-python/boto3
 dev-python/coverage
 dev-python/django
