@@ -299,7 +299,8 @@ net-misc/youtube-dl
 net-p2p/transmission
 net-print/foomatic-db
 net-print/foomatic-db-ppds
-net-print/hplip
+# temp disable wrt py3.9, also annoying tray popups
+# net-print/hplip
 net-proxy/squid
 net-proxy/tinyproxy
 net-proxy/tsocks
