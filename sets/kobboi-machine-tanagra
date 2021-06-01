@@ -367,7 +367,8 @@ sys-boot/grub
 sys-boot/syslinux
 sys-boot/woeusb
 sys-cluster/minikube
-sys-cluster/openstack-meta
+# all dependencies are currently masked because of python-3.9
+# sys-cluster/openstack-meta
 sys-devel/clang
 sys-devel/crossdev
 sys-devel/distcc
