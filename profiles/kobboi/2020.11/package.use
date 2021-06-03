@@ -137,19 +137,6 @@ dev-python/PyQt5 declarative
 dev-python/numpy lapack
 dev-libs/libarcus python
 dev-libs/libsavitar python
->=dev-python/pyserial-3.4 python_targets_python3_6
->=dev-python/zeroconf-0.24.4 python_targets_python3_6
->=dev-python/ifaddr-0.1.6 python_targets_python3_6
->=dev-python/pillow-7.1.2 python_targets_python3_6
->=dev-python/protobuf-python-3.11.4 python_targets_python3_6
->=dev-python/namespace-google-1 python_targets_python3_6
->=sci-libs/scipy-1.4.1 python_targets_python3_6
->=sci-libs/Shapely-1.6.4_p2-r1 python_targets_python3_6
->=dev-python/pybind11-2.4.3 python_targets_python3_6
->=dev-python/olefile-0.46 python_targets_python3_6
->=dev-python/cython-0.29.17 python_targets_python3_6
-
-
 
 ### digikam ###
 kde-apps/marble plasma
@@ -668,10 +655,6 @@ mate-base/mate -bluetooth
 # teams
 >=media-video/ffmpeg-4.2.2 chromium
 
-# requests
-dev-python/six python_targets_python3_6
-dev-python/idna python_targets_python3_6
-
 # 32-bit steam overlay
 >=virtual/opengl-7.0-r2 abi_x86_32
 >=media-libs/mesa-20.2.1 abi_x86_32
@@ -721,11 +704,6 @@ sys-apps/fwupd uefi nvme flashrom gnutls
 # rust
 net-misc/curl http2
 
-# qtconsole
->=dev-python/setuptools_scm-4.1.2 python_targets_python3_6
->=dev-python/setuptools-46.4.0-r2 python_targets_python3_6
->=dev-python/certifi-10001 python_targets_python3_6
-
 # see what opencv can do
 media-libs/opencv -gtk3 opencvapps opencl examples threads
 
@@ -745,92 +723,12 @@ dev-util/ostree grub
 
 # spyder
 >=dev-python/QtPy-1.9.0-r2 webengine
-dev-python/versioneer python_targets_python3_7 python_targets_python3_8
 
 app-office/gnucash aqbanking ofx
 net-libs/aqbanking ofx
 
 # fdupes
 >=dev-libs/libpcre2-10.36 pcre32
-
-# not everything supports python3_8 yet, so
-# a those (and their dependencies) need python3_7
-media-video/pitivi python_single_target_python3_7
-dev-vcs/gitg python_targets_python3_7
-net-analyzer/scapy python_targets_python3_7
-net-misc/openvswitch  python_targets_python3_7
-media-libs/gstreamer-editing-services python_targets_python3_7
-net-misc/pulseaudio-dlna python_targets_python3_7
-dev-python/namespace-google python_targets_python3_7
-dev-python/six python_targets_python3_7
-dev-python/protobuf-python python_targets_python3_7
->=dev-python/requests-2.25.0 python_targets_python3_7
->=dev-python/chardet-3.0.4-r1 python_targets_python3_7
->=dev-python/idna-2.10-r1 python_targets_python3_7
->=dev-python/urllib3-1.26.2-r1 python_targets_python3_7
->=dev-python/cryptography-3.2.1 python_targets_python3_7
->=dev-python/pyopenssl-19.1.0-r1 python_targets_python3_7
->=dev-python/PySocks-1.7.1-r1 python_targets_python3_7
->=dev-python/cffi-1.14.0-r3 python_targets_python3_7
->=dev-python/pycparser-2.20-r1 python_targets_python3_7
->=dev-python/ply-3.11-r1 python_targets_python3_7
->=dev-python/setproctitle-1.2.1 python_targets_python3_7
->=dev-python/zope-interface-5.2.0-r1 python_targets_python3_7
->=dev-python/notify2-0.3.1-r2 python_targets_python3_7
->=dev-python/dbus-python-1.2.16-r1 python_targets_python3_7
->=dev-python/netifaces-0.10.9 python_targets_python3_7
->=dev-python/lxml-4.6.2 python_targets_python3_7
->=dev-python/cython-0.29.21-r1 python_targets_python3_7
->=dev-python/pygobject-3.36.1-r1 python_targets_python3_7
->=dev-python/pycairo-1.20.0 python_targets_python3_7
->=dev-python/docutils-0.16-r1 python_targets_python3_7
->=dev-python/pygments-2.7.2 python_targets_python3_7
->=dev-python/zeroconf-0.24.4 python_targets_python3_7
->=dev-python/ifaddr-0.1.7 python_targets_python3_7
->=dev-python/psutil-5.7.3 python_targets_python3_7
->=dev-python/appdirs-1.4.4-r1 python_targets_python3_7
->=dev-python/twisted-20.3.0 python_targets_python3_7
-dev-python/bcrypt python_targets_python3_7
->=dev-python/attrs-20.3.0 python_targets_python3_7
->=dev-python/automat-20.2.0 python_targets_python3_7
->=dev-python/constantly-15.1.0-r1 python_targets_python3_7
->=dev-python/hyperlink-20.0.1 python_targets_python3_7
->=dev-python/incremental-17.5.0 python_targets_python3_7
->=dev-python/pyhamcrest-2.0.2 python_targets_python3_7
->=dev-python/zope-interface-5.2.0 python_targets_python3_7
->=dev-python/pyasn1-0.4.8-r1 python_targets_python3_7
->=dev-python/service_identity-18.1.0-r1 python_targets_python3_7
->=dev-python/pyasn1-modules-0.2.8-r1 python_targets_python3_7
->=dev-python/namespace-zope-1-r1 python_targets_python3_7
->=dev-python/m2r-0.2.1 python_targets_python3_7
->=dev-python/mistune-0.8.4-r1 python_targets_python3_7
->=dev-python/docopt-0.6.2-r3 python_targets_python3_7
->=dev-python/gst-python-1.16.2 python_targets_python3_7
->=dev-python/numpy-1.19.4 python_targets_python3_7
->=dev-python/pillow-8.0.1 python_targets_python3_7
->=dev-python/olefile-0.46-r1 python_targets_python3_7
->=dev-python/pyparsing-2.4.7-r1 python_targets_python3_7
->=dev-python/python-dateutil-2.8.1-r2 python_targets_python3_7
->=dev-python/pytz-2020.4 python_targets_python3_7
->=dev-python/PyQt5-5.15.1 python_targets_python3_7
->=dev-python/sip-4.19.24 python_targets_python3_7
->=dev-python/PyQt5-sip-4.19.24 python_targets_python3_7
->=dev-python/setuptools-51.0.0 python_targets_python3_7
->=dev-python/setuptools_scm-5.0.0 python_targets_python3_7
->=dev-python/ovs-2.13.0 python_targets_python3_7
->=dev-python/sortedcontainers-2.3.0 python_targets_python3_7
->=dev-python/matplotlib-3.3.3-r1 python_targets_python3_7
->=dev-python/cycler-0.10.0-r1 python_targets_python3_7
->=dev-python/kiwisolver-1.3.1 python_targets_python3_7
->=dev-python/cairocffi-1.2.0 python_targets_python3_7
->=dev-python/wxpython-4.0.7 python_targets_python3_7
->=dev-python/pathlib2-2.3.5-r1 python_targets_python3_7
->=dev-python/xcffib-0.11.1 python_targets_python3_7
->=dev-python/cppy-1.1.0 python_targets_python3_7
->=dev-python/certifi-10001-r1 python_targets_python3_7
->=dev-python/pyroute2-0.5.14 python_targets_python3_7
->=dev-python/pychromecast-4.1.0 python_targets_python3_7
->=dev-python/casttube-0.2.0 python_targets_python3_7
 
 sys-cluster/openstack-meta cinder glance heat keystone neutron nova placement swift
 sys-cluster/cinder sqlite
@@ -852,6 +750,3 @@ sys-cluster/placement sqlite
 
 # mysql-workbench
 >=net-libs/libssh-0.9.5 server
-
-# ansi2html
->=dev-python/toml-0.10.2 python_targets_python3_7
