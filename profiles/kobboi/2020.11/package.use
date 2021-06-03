@@ -80,8 +80,6 @@ dev-libs/leveldb -snappy
 ### blender ###
 media-gfx/blender collada colorio cycles fftw redcode jpeg2k openimageio
 
-dev-python/numpy python_targets_python3_6
-
 ### bochs ###
 app-emulation/bochs -wxwidgets
 
@@ -103,10 +101,6 @@ app-misc/ca-certificates insecure_certs cacert
 app-text/poppler qt5
 dev-qt/qtwebkit printsupport
 dev-python/PyQt5 webkit webchannel
-#dev-python/PyQt5-sip python_targets_python3_6
-#dev-python/dbus-python python_targets_python3_6
-#dev-python/sip python_targets_python3_6
-#dev-python/olefile python_targets_python3_6
 
 ### calligra ###
 media-gfx/pstoedit plotutils
