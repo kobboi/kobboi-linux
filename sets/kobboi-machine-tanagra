@@ -52,7 +52,8 @@ app-misc/ttysnoop
 app-misc/xmind
 app-mobilephone/dfu-util
 app-office/dia
-app-office/gtg
+# py38
+#app-office/gtg
 app-office/libreoffice
 app-office/scribus
 app-office/texmaker
@@ -190,7 +191,9 @@ media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
 media-fonts/powerline-symbols
+# py38
 #media-gfx/blender
+# py38
 #media-gfx/cura
 media-gfx/darktable
 media-gfx/eog-plugins
