@@ -190,8 +190,8 @@ media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
 media-fonts/powerline-symbols
-media-gfx/blender
-media-gfx/cura
+#media-gfx/blender
+#media-gfx/cura
 media-gfx/darktable
 media-gfx/eog-plugins
 media-gfx/fbida
