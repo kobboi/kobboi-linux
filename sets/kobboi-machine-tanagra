@@ -52,8 +52,7 @@ app-misc/ttysnoop
 app-misc/xmind
 app-mobilephone/dfu-util
 app-office/dia
-# py38
-#app-office/gtg
+app-office/gtg
 app-office/libreoffice
 app-office/scribus
 app-office/texmaker
@@ -191,10 +190,8 @@ media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
 media-fonts/powerline-symbols
-# py38
-#media-gfx/blender
-# py38
-#media-gfx/cura
+media-gfx/blender
+media-gfx/cura
 media-gfx/darktable
 media-gfx/eog-plugins
 media-gfx/fbida
@@ -211,8 +208,7 @@ media-gfx/prusaslicer
 media-gfx/simple-scan
 media-libs/chromaprint
 media-libs/freeimage
-# https://bugs.gentoo.org/708520
-# media-plugins/gimp-lqr
+media-plugins/gimp-lqr
 media-plugins/gst-plugins-soup
 media-sound/alsa-utils
 media-sound/ardour
@@ -316,7 +312,6 @@ net-vpn/pptpd
 net-wireless/hostapd
 net-wireless/iw
 net-wireless/wireless-tools
-# no workie with bash5
 sci-astronomy/stellarium
 sci-calculators/tiemu
 sci-calculators/units
