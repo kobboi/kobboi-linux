@@ -1,0 +1,39 @@
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/dbus-python-1.2.16-r1 python_targets_python3_8
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/pygobject-3.40.1 python_targets_python3_8
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/liblarch-3.0.1 python_targets_python3_8
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/pyxdg-0.27 python_targets_python3_8
+# required by dev-python/pygobject-3.40.1::gentoo[cairo]
+# required by dev-python/liblarch-3.0.1::gentoo[-test]
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/pycairo-1.20.0 python_targets_python3_8
+# required by dev-python/pycairo-1.20.0::gentoo
+# required by dev-python/pygobject-3.40.1::gentoo[cairo]
+# required by dev-python/liblarch-3.0.1::gentoo[-test]
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/setuptools-57.0.0 python_targets_python3_8
+# required by dev-python/setuptools-57.0.0::gentoo
+# required by dev-python/pyxdg-0.27::gentoo
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_8
+# required by dev-python/setuptools-57.0.0::gentoo
+# required by dev-python/pyxdg-0.27::gentoo
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/setuptools_scm-6.0.1-r1 python_targets_python3_8
+# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
+# required by dev-python/setuptools-57.0.0::gentoo
+# required by dev-python/pyxdg-0.27::gentoo
+# required by app-office/gtg-0.4.0::gentoo[python_single_target_python3_8]
+# required by gtg (argument)
+>=dev-python/toml-0.10.2 python_targets_python3_8
