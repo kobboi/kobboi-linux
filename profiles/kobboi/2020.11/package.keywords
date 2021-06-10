@@ -7,3 +7,5 @@ cross-avr/gdb * ~* -amd64 -~amd64
 dev-lang/ruby -~amd64
 
 media-sound/ardour *
+
+dev-lang/ispc *
