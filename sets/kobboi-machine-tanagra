@@ -52,7 +52,8 @@ app-misc/ttysnoop
 app-misc/xmind
 app-mobilephone/dfu-util
 app-office/dia
-app-office/gtg
+# let's disable this until version 0.5 so we don't need py3.8 specifics
+# app-office/gtg
 app-office/libreoffice
 app-office/scribus
 app-office/texmaker
