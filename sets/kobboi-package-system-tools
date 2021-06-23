@@ -11,5 +11,5 @@ sys-apps/hwloc
 sys-block/fio
 app-metrics/collectd
 sys-apps/fwupd
-app-misc/OpenRGB
+app-misc/openrgb
 sys-process/parallel
