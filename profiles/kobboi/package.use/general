@@ -578,8 +578,8 @@ net-misc/remmina rdp
 # for pyzmq
 net-libs/zeromq drafts
 
-#for better font rendering
-media-libs/freetype infinality
+# for pango
+media-libs/freetype harfbuzz
 
 #gnome-calculator
 x11-libs/gtksourceview vala
