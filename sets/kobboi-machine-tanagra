@@ -174,7 +174,7 @@ gnome-extra/gnome-calendar
 gnome-extra/gnome-characters
 gnome-extra/gnome-clocks
 gnome-extra/gnome-logs
-gnome-extra/gnome-shell-extensions-topicons-plus
+gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-gsconnect
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-weather
