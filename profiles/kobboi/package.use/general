@@ -212,6 +212,7 @@ app-text/gtkspell vala
 
 ### gitolite ###
 dev-vcs/gitolite tools
+acct-user/git gitolite
 
 ### gnome ###
 gnome-extra/evolution-data-server vala
