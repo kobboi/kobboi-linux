@@ -745,3 +745,6 @@ sys-cluster/placement sqlite
 
 # mysql-workbench
 >=net-libs/libssh-0.9.5 server
+
+# app-editors/nano
+>=sys-libs/ncurses-6.2_p20210123 static-libs
