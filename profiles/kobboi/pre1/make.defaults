@@ -1,1 +1,1 @@
-USE="bindist"
+USE="bindist -gtk -qt5"
