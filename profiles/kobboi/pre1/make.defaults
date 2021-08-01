@@ -1,1 +1,1 @@
-USE="bindist -gtk -qt5"
+USE="bindist -gtk -qt5 -gnome-keyring"
