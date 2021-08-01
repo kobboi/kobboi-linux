@@ -4,3 +4,4 @@ net-dns/avahi -gtk
 media-libs/mesa -vaapi
 dev-lang/python -tk -bluetooth
 app-emulation/qemu -spice
+media-libs/freetype -harfbuzz
