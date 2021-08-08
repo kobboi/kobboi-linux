@@ -2,7 +2,6 @@
 @kobboi-package-games
 @kobboi-package-develop
 @kobboi-package-system-tools
-@kobboi-all-packages
 app-admin/chrpath
 app-admin/graylog
 app-admin/keepass
