@@ -1,3 +1,4 @@
-media-video/pitivi
+# https://bugs.gentoo.org/804945
+ #media-video/pitivi
 kde-apps/kdenlive
 media-tv/v4l-utils
