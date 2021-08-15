@@ -320,6 +320,7 @@ sci-calculators/units
 sci-electronics/eagle
 sci-electronics/fritzing
 sci-electronics/gerbv
+sci-geosciences/gpsbabel
 sci-electronics/gtkwave
 sci-electronics/iverilog
 sci-electronics/xcircuit
