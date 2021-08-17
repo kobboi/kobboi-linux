@@ -19,3 +19,6 @@ media-video/libav
 
 # sphinx-4 is breaking at least openvswitch-2.14.1 but others too (see blocker bug on bgo)
 >=dev-python/sphinx-4
+
+# https://bugs.gentoo.org/808633
+>=sci-libs/hdf5-1.12
