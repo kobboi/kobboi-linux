@@ -22,3 +22,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/808633
 >=sci-libs/hdf5-1.12
+
+# https://bugs.gentoo.org/809092
+>=dev-libs/protobuf-c-1.4
