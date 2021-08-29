@@ -28,4 +28,4 @@ media-video/libav
 
 # https://bugs.gentoo.org/810343
 # https://bugs.gentoo.org/810511
->=medial-libs/libglvnd-1.3.4
+>=media-libs/libglvnd-1.3.4
