@@ -29,3 +29,6 @@ media-video/libav
 # https://bugs.gentoo.org/810343
 # https://bugs.gentoo.org/810511
 >=media-libs/libglvnd-1.3.4
+
+# https://bugs.gentoo.org/810883
+>=net-libs/libsoup-2.74.0
