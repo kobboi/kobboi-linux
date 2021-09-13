@@ -68,7 +68,7 @@ app-shells/bash-completion
 app-shells/gentoo-bashcomp
 app-shells/zsh
 # https://bugs.gentoo.org/799365
-# app-text/calibre
+app-text/calibre
 app-text/djvu
 app-text/dos2unix
 app-text/ebook-tools
