@@ -25,6 +25,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/810883
 >=net-libs/libsoup-2.74.0
-
-# https://bugs.gentoo.org/812923
->=sys-devel/bison-3.8
