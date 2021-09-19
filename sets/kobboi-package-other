@@ -10,4 +10,3 @@ media-gfx/krita
 app-emulation/snapd
 sys-apps/flatpak
 www-client/pybugz
-sci-libs/tensorflow
