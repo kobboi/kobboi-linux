@@ -1,21 +1,3 @@
-@kobboi-machine-base
-app-admin/salt
-app-arch/makeself
-app-emulation/qemu
-app-emulation/virt-manager
-app-metrics/node_exporter
-app-metrics/prometheus
-app-misc/bijiben
-app-office/projectlibre-bin
-dev-db/mariadb
-# https://bugs.gentoo.org/799668
-# mate-base/mate
-net-ftp/tftp-hpa
-net-misc/rabbitmq-server
-# https://bugs.gentoo.org/775545
-# sci-mathematics/rstudio
-sys-boot/unetbootin
-www-client/pybugz
-x11-misc/makedepend
-www-apps/moodle
-dev-util/pkgcheck
+@kobboi-package-nice-desktop
+@kobboi-package-networking-tools
+@kobboi-package-develop

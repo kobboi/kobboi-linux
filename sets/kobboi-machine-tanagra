@@ -166,9 +166,6 @@ dev-vcs/qgit
 dev-vcs/repo
 dev-vcs/subversion
 dev-vcs/tig
-games-rpg/drascula
-games-rpg/dreamweb
-games-sports/torcs
 gnome-base/gnome
 gnome-extra/gnome-boxes
 gnome-extra/gnome-calendar
@@ -431,3 +428,7 @@ x11-themes/arc-theme
 x11-themes/gtk-engines-murrine
 x11-themes/murrine-themes
 x11-wm/twm
+-#Brother DCP-7025 printer part
+-net-print/brother-genml1-bin
+-#Brother DCP-7025 scanner part
+-media-gfx/brother-dcp7025-bin

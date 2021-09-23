@@ -43,8 +43,3 @@ sys-process/lsof
 www-client/firefox
 www-client/google-chrome
 x11-plugins/purple-facebook
-#Brother DCP-7025 printer part
-net-print/brother-genml1-bin
-#Brother DCP-7025 scanner part
-media-gfx/brother-dcp7025-bin
-
