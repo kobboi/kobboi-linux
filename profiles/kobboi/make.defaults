@@ -41,4 +41,3 @@ UNINSTALL_IGNORE="/usr/src/debug /usr/lib/debug"
 # Prevent removal of kernel modules when older distkernels (potentially running) are uninstalled
 CONFIG_PROTECT="/lib/modules"
 
-RUBY_TARGETS="ruby26"
