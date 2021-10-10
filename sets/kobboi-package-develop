@@ -6,7 +6,6 @@ app-emulation/qemu
 dev-util/cutter
 dev-lang/clojure
 dev-lang/go
-dev-lang/ruby
 dev-lang/lua
 dev-lang/nasm
 dev-lang/yasm
