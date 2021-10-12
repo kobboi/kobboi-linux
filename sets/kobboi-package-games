@@ -9,7 +9,8 @@ games-arcade/xscavenger
 games-board/crafty
 games-board/pokerth
 games-board/stockfish
-games-emulation/advancemame
+# https://bugs.gentoo.org/706924
+# games-emulation/advancemame
 games-emulation/dosbox
 games-engines/scummvm
 games-misc/cowsay

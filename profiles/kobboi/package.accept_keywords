@@ -1,4 +1,2 @@
 net-misc/pulseaudio-dlna **
 media-video/openshot **
-dev-lang/ruby -~amd64
-dev-lang/ruby:2.7 ~amd64

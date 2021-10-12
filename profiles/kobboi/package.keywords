@@ -2,3 +2,6 @@ cross-avr/binutils * ~* -amd64 -~amd64
 cross-avr/gcc * ~* -amd64 -~amd64
 cross-avr/avr-libc * ~* -amd64 -~amd64
 cross-avr/gdb * ~* -amd64 -~amd64
+
+# don't use unstable ruby to avoid dependency resolution hell
+dev-lang/ruby -~amd64
