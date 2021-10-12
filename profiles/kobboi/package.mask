@@ -25,3 +25,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/810883
 >=net-libs/libsoup-2.74.0
+
+# https://bugs.gentoo.org/817212
+>=net-libs/grpc-1.41
