@@ -28,3 +28,7 @@ media-video/libav
 
 # https://bugs.gentoo.org/817212
 >=net-libs/grpc-1.41
+
+# https://bugs.gentoo.org/820785
+# https://bugs.gentoo.org/820788
+>=dev-cpp/tbb-2021.4.0
