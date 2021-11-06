@@ -21,7 +21,7 @@ media-video/libav
 >=dev-python/sphinx-4
 
 # https://bugs.gentoo.org/808633
->=sci-libs/hdf5-1.12
+# >=sci-libs/hdf5-1.12
 
 # https://bugs.gentoo.org/810883
 >=net-libs/libsoup-2.74.0
@@ -31,4 +31,4 @@ media-video/libav
 
 # https://bugs.gentoo.org/820785
 # https://bugs.gentoo.org/820788
->=dev-cpp/tbb-2021.4.0
+# >=dev-cpp/tbb-2021.4.0
