@@ -10,7 +10,8 @@ media-gfx/krita
 app-emulation/snapd
 sys-apps/flatpak
 www-client/pybugz
-sci-libs/tensorflow
+#fails to build with debug symbols, still need to log bug
+#sci-libs/tensorflow
 app-admin/salt
 app-arch/makeself
 app-emulation/qemu
