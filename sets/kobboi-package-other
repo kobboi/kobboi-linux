@@ -8,7 +8,7 @@ kde-apps/kmail
 gnome-extra/evolution-ews
 media-gfx/krita
 app-emulation/snapd
-sys-apps/flatpak
+#sys-apps/flatpak
 www-client/pybugz
 #fails to build with debug symbols, still need to log bug
 #sci-libs/tensorflow
