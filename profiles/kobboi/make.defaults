@@ -37,7 +37,3 @@ DCO_SIGNED_OFF_BY="Christophe Lermytte <gentoo@lermytte.be>"
 
 # Prevent removal in case they are symlinks to a directory on a different device
 UNINSTALL_IGNORE="/usr/src/debug /usr/lib/debug"
-
-# Prevent removal of kernel modules when older distkernels (potentially running) are uninstalled
-CONFIG_PROTECT="/lib/modules"
-
