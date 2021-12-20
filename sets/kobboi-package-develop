@@ -21,7 +21,7 @@ dev-python/seaborn
 app-editors/vscode
 dev-embedded/platformio
 dev-db/mysql-workbench
-app-emulation/docker
-app-emulation/docker-cli
-app-emulation/docker-compose
-app-emulation/docker-machine
+app-containers/docker
+app-containers/docker-cli
+app-containers/docker-compose
+app-containers/docker-machine

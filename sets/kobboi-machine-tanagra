@@ -27,10 +27,10 @@ app-editors/hexedit
 app-editors/nano
 app-editors/vim
 app-emulation/bochs
-app-emulation/docker
-app-emulation/docker-cli
-app-emulation/docker-compose
-app-emulation/docker-machine
+app-containers/docker
+app-containers/docker-cli
+app-containers/docker-compose
+app-containers/docker-machine
 app-emulation/podman
 app-emulation/qemu
 app-emulation/vagrant
