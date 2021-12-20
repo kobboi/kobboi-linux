@@ -24,4 +24,4 @@ dev-db/mysql-workbench
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
-app-containers/docker-machine
+app-emulation/docker-machine

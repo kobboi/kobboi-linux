@@ -30,7 +30,7 @@ app-emulation/bochs
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
-app-containers/docker-machine
+app-emulation/docker-machine
 app-emulation/podman
 app-emulation/qemu
 app-emulation/vagrant
