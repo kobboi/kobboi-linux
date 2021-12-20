@@ -31,7 +31,7 @@ app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
 app-emulation/docker-machine
-app-emulation/podman
+app-containers/podman
 app-emulation/qemu
 app-emulation/vagrant
 app-emulation/virtualbox
