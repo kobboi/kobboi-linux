@@ -7,7 +7,7 @@ app-emulation/lxc
 kde-apps/kmail
 gnome-extra/evolution-ews
 media-gfx/krita
-app-emulation/snapd
+app-containers/snapd
 #sys-apps/flatpak
 www-client/pybugz
 #fails to build with debug symbols, still need to log bug
