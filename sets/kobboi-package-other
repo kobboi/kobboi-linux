@@ -3,7 +3,7 @@ kde-apps/kde-apps-meta
 dev-util/ostree
 app-emulation/xen
 app-emulation/xen-tools
-app-emulation/lxc
+app-containers/lxc
 kde-apps/kmail
 gnome-extra/evolution-ews
 media-gfx/krita
