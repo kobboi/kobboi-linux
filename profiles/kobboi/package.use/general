@@ -695,12 +695,12 @@ x11-drivers/nvidia-drivers abi_x86_32
 # fwupd
 >=dev-libs/libjcat-0.1.3-r1 gpg pkcs7
 sys-apps/fwupd uefi nvme flashrom gnutls
-
 # rust
 net-misc/curl http2
 
 # see what opencv can do
-media-libs/opencv -gtk3 opencvapps opencl examples threads
+# https://bugs.gentoo.org/830163
+media-libs/opencv -gtk3 opencvapps opencl -examples threads
 
 # https://bugs.gentoo.org/702354
 media-gfx/shotwell -opencv
