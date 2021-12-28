@@ -38,9 +38,7 @@ S=${WORKDIR}/${P/gstreamer/gst}
 
 src_configure() {
 	local emesonargs=(
-		$(meson_use gtk-doc docs)
 		$(meson_feature introspection)
-		$(meson_feature test tests)
 		-Dbash-completion=disabled
 		-Dxptv=disabled
 		-Dpython=enabled
