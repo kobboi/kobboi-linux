@@ -26,3 +26,5 @@ media-video/libav
 # https://bugs.gentoo.org/817212
 >=net-libs/grpc-1.41
 
+# favor openjdk vs openjdk-bin
+dev-java/openjdk-bin
