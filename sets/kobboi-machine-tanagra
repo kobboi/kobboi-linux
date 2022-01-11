@@ -260,7 +260,7 @@ net-fs/sshfs
 net-ftp/lftp
 net-ftp/vsftpd
 net-im/bitlbee
-net-im/bitlbee-facebook
+
 net-im/pidgin
 net-im/slack
 net-im/teams
@@ -422,7 +422,7 @@ x11-misc/xpad
 x11-plugins/pidgin-extprefs
 x11-plugins/pidgin-opensteamworks
 x11-plugins/pidgin-sipe
-x11-plugins/purple-facebook
+
 x11-terms/xterm
 x11-themes/arc-icon-theme
 x11-themes/arc-theme
