@@ -14,15 +14,5 @@ media-video/libav
 # https://bugs.gentoo.org/779136
 >=gnome-extra/filemanager-actions-3.4
 
-# prusaslicer 2.3.0 needs ilmbase, which this version blocks
->=media-libs/openexr-3
-
 # sphinx-4 is breaking at least openvswitch-2.14.1 but others too (see blocker bug on bgo)
 >=dev-python/sphinx-4
-
-# https://bugs.gentoo.org/810883
->=net-libs/libsoup-2.74.0
-
-# https://bugs.gentoo.org/817212
->=net-libs/grpc-1.41
-
