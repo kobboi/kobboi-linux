@@ -1,3 +1,2 @@
 # we don't need support for old nvidia cards on tanagra
-media-video/ffmpeg
 media-libs/nv-codec-headers
