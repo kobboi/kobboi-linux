@@ -14,8 +14,5 @@ media-video/libav
 # https://bugs.gentoo.org/779136
 >=gnome-extra/filemanager-actions-3.4
 
-# sphinx-4 is breaking at least openvswitch-2.14.1 but others too (see blocker bug on bgo)
->=dev-python/sphinx-4
-
 # https://bugs.gentoo.org/831437
 >=media-video/ffmpeg-5
