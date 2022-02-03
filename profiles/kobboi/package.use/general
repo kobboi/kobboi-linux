@@ -748,3 +748,7 @@ sys-cluster/placement sqlite
 
 # app-editors/nano
 >=sys-libs/ncurses-6.2_p20210123 static-libs
+
+# blender/clang?
+>=virtual/libcrypt-2 abi_x86_32
+>=sys-libs/libxcrypt-4.4.27 abi_x86_32
