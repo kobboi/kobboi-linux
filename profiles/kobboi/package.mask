@@ -19,3 +19,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/832141
 >=app-misc/tracker-3.2
+
+# https://bugs.gentoo.org/832862
+>=media-gfx/openvdb-9
