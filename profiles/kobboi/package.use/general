@@ -688,6 +688,8 @@ dev-util/wayland-scanner abi_x86_32
 >=app-arch/bzip2-1.0.8-r1 abi_x86_32
 x11-drivers/nvidia-drivers abi_x86_32
 >=sys-devel/llvm-11.0.0 abi_x86_32
+>=dev-libs/libbsd-0.11.5 abi_x86_32
+>=app-crypt/libmd-1.0.4 abi_x86_32
 
 # qtconsole -> ipython
 >=dev-python/QtPy-1.9.0-r2 gui printsupport
