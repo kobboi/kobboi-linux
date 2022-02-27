@@ -31,3 +31,4 @@ www-client/pybugz
 x11-misc/makedepend
 www-apps/moodle
 dev-util/pkgcheck
+app-emulation/vice
