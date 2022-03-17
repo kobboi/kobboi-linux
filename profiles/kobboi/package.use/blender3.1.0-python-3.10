@@ -243,3 +243,10 @@
 # required by @selected
 # required by @world (argument)
 >=dev-python/cython-0.29.28 python_targets_python3_10
+
+
+
+
+# niet direct van blender maar wel gevolg van hierboven
+>=dev-python/nspektr-0.3.0 python_targets_python3_10
+
