@@ -16,3 +16,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/831437
 >=media-video/ffmpeg-5
+
+# https://bugs.gentoo.org/835378
+>=dev-lang/go-1.18
