@@ -173,8 +173,7 @@ gnome-extra/gnome-characters
 gnome-extra/gnome-clocks
 gnome-extra/gnome-logs
 gnome-extra/gnome-shell-extension-appindicator
-# https://bugs.gentoo.org/835720
-# gnome-extra/gnome-shell-extension-gsconnect
+gnome-extra/gnome-shell-extension-gsconnect
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-weather
 gnome-extra/filemanager-actions

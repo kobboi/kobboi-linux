@@ -39,8 +39,7 @@ media-video/mpv
 media-sound/audacity
 
 gnome-extra/gnome-shell-extension-appindicator
-# https://bugs.gentoo.org/835720
-#gnome-extra/gnome-shell-extension-gsconnect
+gnome-extra/gnome-shell-extension-gsconnect
 games-util/steam-launcher
 
 dev-vcs/gitg
