@@ -19,3 +19,7 @@ media-video/libav
 
 # https://bugs.gentoo.org/835378
 >=dev-lang/go-1.18
+
+# https://bugs.gentoo.org/835788
+# https://bugs.gentoo.org/835791
+>=media-libs/dav1d-1
