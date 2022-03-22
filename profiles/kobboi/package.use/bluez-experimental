@@ -1,0 +1,2 @@
+# try to get battery indicator working + maybe some extra tools to learn bluetooth
+net-wireless/bluez	experimental extra-tools
