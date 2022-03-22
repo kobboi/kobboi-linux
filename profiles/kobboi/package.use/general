@@ -754,3 +754,6 @@ sys-cluster/placement sqlite
 # blender/clang?
 >=virtual/libcrypt-2 abi_x86_32
 >=sys-libs/libxcrypt-4.4.27 abi_x86_32
+
+# https://bugs.gentoo.org/835818
+app-containers/snapd -cgroup-hybrid
