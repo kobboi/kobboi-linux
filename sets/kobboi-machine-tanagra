@@ -32,8 +32,6 @@ app-containers/docker-cli
 app-containers/docker-compose
 app-emulation/docker-machine
 app-containers/podman
-https://bugs.gentoo.org/763267
-app-containers/crun
 app-emulation/qemu
 app-emulation/vagrant
 app-emulation/virtualbox
