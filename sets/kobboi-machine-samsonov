@@ -40,7 +40,7 @@ media-sound/audacity
 
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-gsconnect
-games-util/steam-launcher
+# games-util/steam-launcher
 
 dev-vcs/gitg
 dev-vcs/git-lfs
