@@ -49,7 +49,6 @@ app-misc/jq
 app-misc/ltunify
 app-misc/rlwrap
 app-misc/screen
-app-misc/ttysnoop
 app-misc/xmind
 app-mobilephone/dfu-util
 app-office/dia
