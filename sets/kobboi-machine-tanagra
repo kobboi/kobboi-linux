@@ -74,6 +74,7 @@ app-text/ebook-tools
 app-text/pastebinit
 app-text/texlive
 app-text/tree
+app-text/unpaper
 app-text/wgetpaste
 app-text/xml2
 #cross-avr/avr-libc
