@@ -146,7 +146,6 @@ dev-util/jenkins-bin:lts
 dev-util/jfrog-cli
 dev-util/ltrace
 dev-util/meld
-dev-util/nemiver
 dev-util/perf
 dev-util/pycharm-community
 dev-util/quilt

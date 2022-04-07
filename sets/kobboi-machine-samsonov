@@ -47,7 +47,6 @@ dev-vcs/git-lfs
 dev-vcs/repo
 dev-vcs/tig
 dev-util/meld
-dev-util/nemiver
 dev-util/geany
 dev-util/gnome-builder
 dev-util/strace

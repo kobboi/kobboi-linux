@@ -362,9 +362,6 @@ net-misc/modemmanager mbim qmi-newest
 ### mtd ###
 media-sound/mpd soundcloud
 
-### nemiver ###
-dev-util/nemiver memoryview
-
 ### netbeans ###
 dev-java/swing-layout source
 
