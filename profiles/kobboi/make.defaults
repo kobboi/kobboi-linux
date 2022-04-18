@@ -30,6 +30,9 @@ INPUT_DEVICES="keyboard mouse synaptics libinput"
 ALSA_CARDS="hda-intel"
 FEATURES="-parallel-fetch parallel-install"
 
+INSTALL_MASK="/usr/src/debug /usr/lib/debug"
+FEATURES="buildpkg installsources splitdebug compressdebug"
+
 GENTOO_MIRRORS=ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.11
 #PORTAGE_BINHOST="ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.11/packages"
 
@@ -37,3 +40,5 @@ DCO_SIGNED_OFF_BY="Christophe Lermytte <gentoo@lermytte.be>"
 
 # Prevent removal in case they are symlinks to a directory on a different device
 UNINSTALL_IGNORE="/usr/src/debug /usr/lib/debug"
+
+
