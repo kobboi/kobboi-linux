@@ -1,0 +1,3 @@
+# required by media-sound/pulseaudio-15.99.1-r1::gentoo[daemon]
+# required by pulseaudio (argument)
+>=media-sound/pulseaudio-daemon-15.99.1-r2 native-headset ofono-headset
