@@ -1,0 +1,3 @@
+# https://bugs.gentoo.org/843245
+app-emulation/wine-vanilla vkd3d
+app-emulation/wine-staging vkd3d
