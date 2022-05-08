@@ -24,6 +24,16 @@ media-video/libav
 # https://gitlab.gnome.org/GNOME/gvfs/-/issues/611
 >=net-fs/samba-4.16
 
-
 # https://bugs.gentoo.org/841716
 >=dev-libs/capstone-5
+
+# https://bugs.gentoo.org/843287
+# https://bugs.gentoo.org/843275
+>=app-text/poppler-22.05
+
+# https://bugs.gentoo.org/843290
+# https://bugs.gentoo.org/843284
+>=dev-libs/boost-1.79.0
+
+
+
