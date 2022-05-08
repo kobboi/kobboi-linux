@@ -12,6 +12,7 @@ USE="${USE} libass gtk3 frei0r gtkstyle xv vdpau smartcard ssl"
 USE="${USE} -qt4 -kde -consolekit -bindist -branding -libav -filecaps"
 USE="${USE} -handbook vaapi glade zeroconf opus fluidsynth midi djvu smp -examples"
 USE="${USE} mono -opencl avahi -cuda screencast v4l ladspa lv2 lz4 lzma lzo dist-kernel"
+USE="${USE} vulkan"
 
 #opencv doesn't build
 USE="${USE} opencv facedetect"
