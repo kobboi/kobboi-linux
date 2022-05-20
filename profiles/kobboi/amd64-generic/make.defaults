@@ -1,45 +1,4 @@
-CHOST="x86_64-pc-linux-gnu"
-
-COMMON_FLAGS="-O2 -march=x86-64 -pipe -fomit-frame-pointer"
-
-CFLAGS="${COMMON_FLAGS}"
-CXXFLAGS="${COMMON_FLAGS}"
-FCFLAGS="${COMMON_FLAGS}"
-FFLAGS="${COMMON_FLAGS}"
-
-USE="X systemd modemmanager -tracker samba mtp wayland gles gles2 egl ffmpeg bluetooth"
-USE="${USE} libass gtk3 frei0r gtkstyle xv vdpau smartcard ssl"
-USE="${USE} -qt4 -kde -consolekit -bindist -branding -libav -filecaps"
-USE="${USE} -handbook vaapi glade zeroconf opus fluidsynth midi djvu smp -examples"
-USE="${USE} mono -opencl avahi -cuda screencast v4l ladspa lv2 lz4 lzma lzo dist-kernel"
-USE="${USE} vulkan"
-
-#opencv doesn't build
-USE="${USE} opencv facedetect"
-
-# pulls in baloo other wise which eats resources even in a gnome session
-USE="${USE} -semantic-desktop"
-
-ACCEPT_KEYWORDS="~amd64"
-ACCEPT_LICENSE="*"
-PORTAGE_NICENESS="15"
-PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
-CLEAN_DELAY="0"
-
-VIDEO_CARDS="vesa radeon nvidia intel amdgpu"
-INPUT_DEVICES="keyboard mouse synaptics libinput"
-ALSA_CARDS="hda-intel"
-FEATURES="-parallel-fetch parallel-install"
-
-INSTALL_MASK="/usr/src/debug /usr/lib/debug"
-FEATURES="buildpkg installsources splitdebug compressdebug"
-
-GENTOO_MIRRORS=ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.11
-#PORTAGE_BINHOST="ftp://kobboi-linux:KakBoyPoop@10.8.0.1/2020.11/packages"
-
-DCO_SIGNED_OFF_BY="Christophe Lermytte <gentoo@lermytte.be>"
-
-# Prevent removal in case they are symlinks to a directory on a different device
-UNINSTALL_IGNORE="/usr/src/debug /usr/lib/debug"
-
-
+CFLAGS="-O2 -march=x86-64 -pipe -fomit-frame-pointer"
+CXXFLAGS="-O2 -march=x86-64 -pipe -fomit-frame-pointer"
+FCFLAGS="-O2 -march=x86-64 -pipe -fomit-frame-pointer"
+FFLAGS="-O2 -march=x86-64 -pipe -fomit-frame-pointer"
