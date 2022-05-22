@@ -22,8 +22,7 @@ dev-python/numpy
 dev-python/seaborn
 app-editors/vscode
 dev-embedded/platformio
-# rebuild problems and openssl-3 related investigation
-# dev-db/mysql-workbench
+dev-db/mysql-workbench
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
