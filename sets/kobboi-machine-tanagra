@@ -454,6 +454,5 @@ net-misc/gallery-dl
 net-misc/whois
 sys-apps/flatpak
 sys-apps/memtest86-bin
-sys-devel/gcc:9.4.0
 x11-apps/mesa-progs
 x11-misc/barrier
