@@ -6,3 +6,5 @@ media-sound/gnome-sound-recorder
 net-misc/rygel
 mail-client/thunderbird
 net-im/teams
+net-misc/gnome-remote-desktop
+net-misc/gnome-connections
