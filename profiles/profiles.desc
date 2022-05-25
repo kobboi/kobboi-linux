@@ -4,5 +4,5 @@ amd64			kobboi/boll					dev
 amd64			kobboi/moeke					dev
 amd64			kobboi/samsonov					dev
 amd64			kobboi/tanagra					dev
-amd64			kobboi/amd64-generic				dev
-amd64			kobboi/amd64-zen3				dev
+amd64			kobboi/x86-64-v2				dev
+amd64			kobboi/znver3					dev
