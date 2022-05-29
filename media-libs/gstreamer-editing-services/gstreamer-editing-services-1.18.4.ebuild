@@ -24,6 +24,7 @@ RDEPEND="
 	dev-libs/libxml2:2
 	>=media-libs/gstreamer-${PV}:1.0[introspection?]
 	>=media-libs/gst-plugins-base-${PV}:1.0[introspection?]
+	>=media-libs/gst-plugins-bad-${PV}:1.0[introspection?]
 	introspection? ( >=dev-libs/gobject-introspection-0.9.6:= )
 "
 DEPEND="${RDEPEND}"
