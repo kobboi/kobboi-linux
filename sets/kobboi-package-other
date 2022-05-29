@@ -23,9 +23,11 @@ app-office/projectlibre-bin
 dev-db/mariadb
 mate-base/mate
 net-ftp/tftp-hpa
-net-misc/rabbitmq-server
+
+# https://bugs.gentoo.org/846911
+#net-misc/rabbitmq-server
 # https://bugs.gentoo.org/775545
-# sci-mathematics/rstudio
+#sci-mathematics/rstudio
 sys-boot/unetbootin
 www-client/pybugz
 x11-misc/makedepend

@@ -286,7 +286,8 @@ net-misc/ofono
 net-misc/openvswitch
 net-misc/pulseaudio-dlna
 net-misc/putty
-net-misc/rabbitmq-server
+# https://bugs.gentoo.org/846911
+#net-misc/rabbitmq-server
 net-misc/remmina
 net-misc/socat
 net-misc/teamviewer
