@@ -13,10 +13,8 @@ dev-lang/yasm
 dev-lang/tcl
 dev-lang/rust
 net-libs/nodejs
-# https://bugs.gentoo.org/841002
-# depends on broken plotly
-# dev-python/chart-studio
-# dev-python/plotly
+dev-python/chart-studio
+dev-python/plotly
 dev-python/pandas
 dev-python/numpy
 dev-python/seaborn

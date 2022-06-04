@@ -23,6 +23,3 @@ media-video/libav
 # https://bugzilla.redhat.com/show_bug.cgi?id=2068976
 # https://gitlab.gnome.org/GNOME/gvfs/-/issues/611
 >=net-fs/samba-4.16
-
-# https://bugs.gentoo.org/808633
- >=sci-libs/hdf5-1.12
