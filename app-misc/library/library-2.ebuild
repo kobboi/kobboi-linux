@@ -1,5 +1,5 @@
 EAPI=8
 
 KEYWORDS="amd64"
-SLOT=0/2
+SLOT="2"
 
