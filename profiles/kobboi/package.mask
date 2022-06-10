@@ -26,3 +26,6 @@ media-video/libav
 
 # not ready for ncdu-2 which pulls in zig which pulls in llvm:13
 >=sys-fs/ncdu-2
+
+# let's prefer source versions to fulfill the virtual
+dev-java/openjdk-bin
