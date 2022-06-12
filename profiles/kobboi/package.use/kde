@@ -7,3 +7,6 @@
 # required by @selected
 # required by @world (argument)
 >=kde-frameworks/sonnet-5.88.0 qml
+
+#>=plasma-5.95.0-r2 requires this
+kde-framworks/kconfig qml
