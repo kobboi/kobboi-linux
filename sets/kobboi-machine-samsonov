@@ -64,7 +64,7 @@ dev-db/mongodb
 dev-lang/python:3.8
 dev-python/djangorestframework
 dev-python/flask
-dev-python/mysql-connector-python
+dev-python/mysqlclient
 dev-python/pip
 dev-python/pygit2
 dev-python/python-cstruct
