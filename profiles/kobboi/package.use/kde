@@ -10,3 +10,7 @@
 
 #>=plasma-5.95.0-r2 requires this
 kde-frameworks/kconfig qml
+
+#plasma-meta
+>=kde-plasma/kwin-5.25.0 lock
+
