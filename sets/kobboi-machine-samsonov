@@ -59,12 +59,6 @@ app-admin/eclean-kernel
 app-editors/vim-core
 app-misc/binwalk
 app-shells/bash-completion
-cross-armv6j-hardfloat-linux-gnueabi/binutils
-cross-armv6j-hardfloat-linux-gnueabi/gcc
-cross-armv6j-hardfloat-linux-gnueabi/linux-headers
-cross-armv7-unknown-linux-gnueabihf/binutils
-cross-armv7-unknown-linux-gnueabihf/gcc
-cross-armv7-unknown-linux-gnueabihf/linux-headers
 dev-db/mariadb
 dev-db/mongodb
 dev-lang/python:3.8
