@@ -188,7 +188,9 @@ media-libs/mesa gbm
 
 ### geany-plugins ###
 dev-util/geany gtk3
-dev-util/geany-plugins autoclose commander defineformat nls -debugger -devhelp enchant gpg gtkspell lua markdown multiterm python scope soup -webkit  ctags git
+# -git because of pygit dep
+dev-util/geany-plugins autoclose commander defineformat nls -debugger -devhelp enchant gpg gtkspell lua markdown multiterm python scope soup -webkit  ctags
+
 
 ### genkernel-next ###
 sys-kernel/genkernel-next dmraid
