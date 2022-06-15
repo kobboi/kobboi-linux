@@ -135,6 +135,7 @@ dev-libs/libsavitar python
 ### digikam ###
 kde-apps/marble plasma
 media-libs/opencv contrib contribdnn tesseract
+pp-text/tesseract opencl
 
 ### disable-qt-support ###
 dev-util/cmake -qt5
@@ -651,7 +652,7 @@ net-misc/curl http2
 
 # see what opencv can do
 # https://bugs.gentoo.org/830163
-media-libs/opencv opencvapps opencl -examples threads
+media-libs/opencv opencvapps opencl -examples threads -gtk3
 
 # dev-util/ostree
 dev-util/ostree grub
