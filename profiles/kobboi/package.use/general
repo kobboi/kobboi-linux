@@ -424,7 +424,9 @@ x11-plugins/pidgin-sipe voice telepathy openssl
 net-dialup/ppp dhcp radius
 
 ### pulseaudio ###
-media-sound/pulseaudio native-headset ofono-headset equalizer
+# -daemon for pipewire
+media-sound/pulseaudio native-headset ofono-headset equalizer -daemon
+
 
 ### python ###
 dev-lang/python tk
