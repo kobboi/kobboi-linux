@@ -135,7 +135,7 @@ dev-libs/libsavitar python
 ### digikam ###
 kde-apps/marble plasma
 media-libs/opencv contrib contribdnn tesseract
-pp-text/tesseract opencl
+app-text/tesseract opencl
 
 ### disable-qt-support ###
 dev-util/cmake -qt5
