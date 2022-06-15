@@ -134,7 +134,7 @@ dev-libs/libsavitar python
 
 ### digikam ###
 kde-apps/marble plasma
-media-libs/opencv contrib contribdnn
+media-libs/opencv contrib contribdnn tesseract
 
 ### disable-qt-support ###
 dev-util/cmake -qt5
@@ -190,15 +190,6 @@ media-libs/mesa gbm
 dev-util/geany gtk3
 # -git because of pygit dep
 dev-util/geany-plugins autoclose commander defineformat nls -debugger -devhelp enchant gpg gtkspell lua markdown multiterm python scope soup -webkit  ctags
-
-
-### genkernel-next ###
-sys-kernel/genkernel-next dmraid
-
-### getting-rid-of-gtk2 ###
-#still needed for thunderbird
-app-crypt/pinentry gtk
-media-libs/opencv -gtk
 
 ### gimp ###
 #voor mypaint, wat nodig is voor gimp-9999
@@ -660,7 +651,7 @@ net-misc/curl http2
 
 # see what opencv can do
 # https://bugs.gentoo.org/830163
-media-libs/opencv opencvapps opencl -examples threads -gtk3
+media-libs/opencv opencvapps opencl -examples threads
 
 # dev-util/ostree
 dev-util/ostree grub
