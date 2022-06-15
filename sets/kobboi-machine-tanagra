@@ -281,7 +281,6 @@ net-misc/modemmanager
 net-misc/netkit-telnetd
 net-misc/ofono
 net-misc/openvswitch
-net-misc/pulseaudio-dlna
 net-misc/putty
 # https://bugs.gentoo.org/846911
 #net-misc/rabbitmq-server
