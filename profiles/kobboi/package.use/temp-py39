@@ -1,6 +1,0 @@
-app-office/gtg python_targets_python3_9 python_single_target_python3_9
-app-text/pastebinit python_targets_python3_9 python_single_target_python3_9
-net-misc/openvswitch python_targets_python3_9 python_single_target_python3_9
-www-apps/cgit python_targets_python3_9 python_single_target_python3_9
-media-sound/ardour python_targets_python3_9 python_single_target_python3_9
-media-libs/aubio python_targets_python3_9 python_single_target_python3_9

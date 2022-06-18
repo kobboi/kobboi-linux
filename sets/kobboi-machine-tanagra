@@ -52,7 +52,7 @@ app-misc/screen
 app-misc/xmind
 app-mobilephone/dfu-util
 app-office/dia
-app-office/gtg
+#app-office/gtg
 app-office/libreoffice
 app-office/scribus
 app-office/texmaker
@@ -69,7 +69,7 @@ app-text/calibre
 app-text/djvu
 app-text/dos2unix
 app-text/ebook-tools
-app-text/pastebinit
+#app-text/pastebinit
 app-text/texlive
 app-text/tree
 app-text/unpaper
@@ -207,7 +207,7 @@ media-libs/freeimage
 media-plugins/gimp-lqr
 media-plugins/gst-plugins-soup
 media-sound/alsa-utils
-media-sound/ardour
+#media-sound/ardour
 media-sound/audacity
 media-sound/gnome-music
 media-sound/gpodder
@@ -280,7 +280,7 @@ net-misc/memcached
 net-misc/modemmanager
 net-misc/netkit-telnetd
 net-misc/ofono
-net-misc/openvswitch
+#net-misc/openvswitch
 net-misc/putty
 # https://bugs.gentoo.org/846911
 #net-misc/rabbitmq-server
@@ -394,7 +394,7 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 virtual/wine
-www-apps/cgit
+#www-apps/cgit
 www-apps/grafana-bin
 www-client/epiphany
 www-client/firefox
