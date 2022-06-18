@@ -207,7 +207,7 @@ media-libs/freeimage
 media-plugins/gimp-lqr
 media-plugins/gst-plugins-soup
 media-sound/alsa-utils
-media-sound/ardour
+#media-sound/ardour
 media-sound/audacity
 media-sound/gnome-music
 media-sound/gpodder
