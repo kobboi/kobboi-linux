@@ -1,8 +1,9 @@
 kde-plasma/plasma-meta
 kde-apps/kde-apps-meta
 dev-util/ostree
-app-emulation/xen
-app-emulation/xen-tools
+#gcc-12
+#app-emulation/xen
+#app-emulation/xen-tools
 app-containers/lxc
 kde-apps/kmail
 gnome-extra/evolution-ews
