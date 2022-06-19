@@ -1,4 +1,4 @@
-app-emulation/virtualbox
+#app-emulation/virtualbox
 app-emulation/bochs
 app-emulation/qemu
 # crap upgrade path wrt flakes and pycodestyle
