@@ -1,1 +1,3 @@
 media-video/mpv libcaca
+# voor de cinergy terratec dvb test
+media-video/mpv dvb
