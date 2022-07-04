@@ -1,4 +1,4 @@
-EAPI=5
+EAPI=7
 
 MODULE_AUTHOR=MVZ
 inherit perl-module
@@ -17,8 +17,8 @@ RDEPEND="
 	dev-perl/IO-String
 	dev-perl/Module-Build
 	dev-perl/OLE-StorageLite
-	dev-perl/Pod-Parser
 	virtual/perl-Getopt-Long
+	virtual/perl-Pod-Parser
 	"
 DEPEND="${RDEPEND}"
 
