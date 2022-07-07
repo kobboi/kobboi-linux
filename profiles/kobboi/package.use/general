@@ -480,6 +480,7 @@ dev-lang/perl debug ithreads
 #>=media-gfx/openvdb-7.0.0 openvdb_abi_6 openvdb_abi_5
 #sci-libs/nlopt cxx
 # prusaslicer
+>=net-misc/curl-7.84.0 adns
 >=media-libs/qhull-2020.2-r3 static-libs
 
 ### steam ###
