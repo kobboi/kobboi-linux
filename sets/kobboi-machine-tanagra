@@ -60,7 +60,6 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/mirrorselect
-app-portage/repoman
 app-shells/bash-completion
 # app-shells/bashdb
 app-shells/gentoo-bashcomp
