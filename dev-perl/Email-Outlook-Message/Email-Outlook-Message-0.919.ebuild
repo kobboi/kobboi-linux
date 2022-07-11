@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Module-Build
 	dev-perl/OLE-StorageLite
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Parser
+	dev-perl/Pod-Parser
 	"
 DEPEND="${RDEPEND}"
 
