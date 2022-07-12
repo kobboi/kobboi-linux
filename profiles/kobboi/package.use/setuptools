@@ -1,0 +1,19 @@
+# The following USE changes are necessary to proceed:
+#  (see "package.use" in the portage(5) man page for more details)
+# required by dev-python/setuptools_scm-6.4.2::gentoo
+# required by dev-python/setuptools-60.10.0::gentoo
+# required by dev-python/charset_normalizer-2.0.12::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by perl-core/CPAN-2.290.0-r1::gentoo
+# required by virtual/perl-CPAN-2.290.0::gentoo
+# required by dev-perl/SDL-2.548.0::gentoo
+# required by games-arcade/frozen-bubble-2.2.1_beta1-r1::gentoo
+# required by @kobboi-package-games
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-3 python_targets_python3_10
