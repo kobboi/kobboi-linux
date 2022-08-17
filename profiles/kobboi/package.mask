@@ -17,8 +17,9 @@ media-video/libav
 # https://bugs.gentoo.org/831437
 >=media-video/ffmpeg-5
 
-# https://bugs.gentoo.org/835378
->=dev-lang/go-1.18
+# https://bugzilla.redhat.com/show_bug.cgi?id=2068976
+# https://gitlab.gnome.org/GNOME/gvfs/-/issues/611
+>=net-fs/samba-4.16
 
 # not ready for ncdu-2 which pulls in zig which pulls in llvm:13
 >=sys-fs/ncdu-2
