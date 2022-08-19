@@ -1,9 +1,8 @@
 kde-plasma/plasma-meta
 kde-apps/kde-apps-meta
 dev-util/ostree
-#gcc-12
-#app-emulation/xen
-#app-emulation/xen-tools
+app-emulation/xen
+app-emulation/xen-tools
 app-containers/lxc
 kde-apps/kmail
 gnome-extra/evolution-ews
@@ -23,8 +22,7 @@ app-office/projectlibre-bin
 dev-db/mariadb
 mate-base/mate
 net-ftp/tftp-hpa
-# https://bugs.gentoo.org/846911
-#net-misc/rabbitmq-server
+net-misc/rabbitmq-server
 # https://bugs.gentoo.org/775545
 #sci-mathematics/rstudio
 sys-boot/unetbootin

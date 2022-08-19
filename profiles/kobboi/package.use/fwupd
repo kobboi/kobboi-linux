@@ -1,2 +1,2 @@
-# https://bugs.gentoo.org/841767
+#req by USE=modemmanager
 sys-apps/fwupd gusb
