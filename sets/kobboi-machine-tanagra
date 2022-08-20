@@ -393,7 +393,7 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 virtual/wine
-#www-apps/cgit
+www-apps/cgit
 www-apps/grafana-bin
 www-client/epiphany
 www-client/firefox
