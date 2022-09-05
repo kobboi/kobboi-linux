@@ -26,6 +26,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/843851
 >=dev-libs/capstone-5
-
-# https://bugs.gentoo.org/868522
->=sys-apps/gawk-5.2
