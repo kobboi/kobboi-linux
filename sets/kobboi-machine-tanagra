@@ -143,8 +143,7 @@ dev-util/jenkins-bin:lts
 dev-util/jfrog-cli
 dev-util/ltrace
 dev-util/meld
-# https://bugs.gentoo.org/868129
-# dev-util/perf
+dev-util/perf
 dev-util/pycharm-community
 dev-util/quilt
 dev-util/rbtools
