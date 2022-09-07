@@ -1,0 +1,24 @@
+>=sci-libs/med-4.1.1 python
+# required by media-gfx/freecad-0.20.1::gentoo
+# required by freecad (argument)
+>=sci-libs/opencascade-7.6.3 json vtk
+# required by media-gfx/freecad-0.20.1::gentoo[fem]
+# required by freecad (argument)
+>=sci-libs/vtk-9.1.0-r2 python
+# required by media-gfx/freecad-0.20.1::gentoo[python_single_target_python3_10]
+# required by freecad (argument)
+>=dev-python/pyside2-5.15.5 webchannel webengine
+# required by sci-libs/vtk-9.1.0-r2::gentoo[gdal,python]
+# required by sci-libs/opencascade-7.6.3::gentoo[vtk]
+# required by media-gfx/freecad-0.20.1::gentoo
+# required by freecad (argument)
+>=sci-libs/gdal-3.5.1 python
+# required by media-libs/simage-1.8.1::gentoo[tiff]
+# required by media-libs/coin-4.0.0::gentoo
+# required by media-libs/quarter-1.1.0-r1::gentoo
+# required by dev-python/pivy-0.6.7::gentoo[-test,quarter]
+# required by media-gfx/freecad-0.20.1::gentoo[python_single_target_python3_10]
+# required by freecad (argument)
+>=media-libs/tiff-4.4.0 zstd
+
+>=sci-libs/gdal-3.5.0-r4 python
