@@ -20,7 +20,8 @@ app-metrics/prometheus
 app-misc/bijiben
 app-office/projectlibre-bin
 dev-db/mariadb
-mate-base/mate
+# https://bugs.gentoo.org/868630
+#mate-base/mate
 net-ftp/tftp-hpa
 net-misc/rabbitmq-server
 # https://bugs.gentoo.org/775545
