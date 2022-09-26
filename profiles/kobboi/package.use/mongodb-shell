@@ -1,1 +1,2 @@
 dev-db/mongodb mongosh
+>=dev-libs/cyrus-sasl-2.1.28-r4 kerberos
