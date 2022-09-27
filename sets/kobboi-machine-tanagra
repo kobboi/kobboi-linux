@@ -369,7 +369,6 @@ sys-devel/distcc
 sys-devel/llvm
 sys-firmware/intel-microcode
 sys-firmware/nvidia-firmware
-sys-firmware/seabios
 sys-firmware/zd1211-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
