@@ -26,3 +26,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/843851
 >=dev-libs/capstone-5
+
+# https://bugs.gentoo.org/872707
+>=dev-util/sysprof-3.46
