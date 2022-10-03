@@ -320,6 +320,7 @@ sci-geosciences/qmapshack
 sci-geosciences/qmapshack
 sci-libs/cdf
 sci-libs/ceres-solver
+sci-libs/pytorch
 #sci-libs/tensorflow
 sci-mathematics/euler
 sci-mathematics/octave
