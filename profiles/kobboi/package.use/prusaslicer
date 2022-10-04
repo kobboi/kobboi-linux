@@ -1,0 +1,9 @@
+# required by sci-libs/vtk-9.1.0-r3::gentoo
+# required by sci-libs/opencascade-7.6.3::gentoo[vtk]
+# required by media-gfx/prusaslicer-2.5.0_rc2::gentoo
+# required by @kobboi-machine-tanagra
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=sci-libs/cgnslib-4.3.0 hdf5
