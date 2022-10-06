@@ -25,3 +25,5 @@ app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
 app-emulation/docker-machine
+dev-util/shellcheck
+dev-util/cppcheck
