@@ -655,7 +655,7 @@ net-misc/curl http2
 
 # see what opencv can do
 # https://bugs.gentoo.org/830163
-media-libs/opencv opencvapps opencl -examples threads -gtk3
+media-libs/opencv opencvapps opencl examples threads gtk3 -qt5
 
 # dev-util/ostree
 dev-util/ostree grub
