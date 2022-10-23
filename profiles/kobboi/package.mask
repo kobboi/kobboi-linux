@@ -11,9 +11,6 @@
 # prefer ffmpeg over libav
 media-video/libav
 
-# https://bugs.gentoo.org/779136
->=gnome-extra/filemanager-actions-3.4
-
 # https://bugs.gentoo.org/831437
 >=media-video/ffmpeg-5
 
