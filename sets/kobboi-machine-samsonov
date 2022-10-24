@@ -64,7 +64,6 @@ app-misc/binwalk
 app-shells/bash-completion
 dev-db/mariadb
 dev-db/mongodb
-dev-lang/python:3.8
 dev-python/djangorestframework
 dev-python/flask
 dev-python/mysqlclient

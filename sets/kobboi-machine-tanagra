@@ -34,8 +34,6 @@ app-emulation/docker-machine
 app-containers/podman
 app-emulation/qemu
 app-emulation/vagrant
-#app-emulation/virtualbox
-#app-emulation/virtualbox-extpack-oracle
 app-emulation/wine-staging
 app-emulation/winetricks
 app-emulation/wine-vanilla
@@ -61,6 +59,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/bash-completion
+# ">=app-shells/bash-5.1" is soft blocking app-shells/bashdb-5.0.1.1.2
 # app-shells/bashdb
 app-shells/gentoo-bashcomp
 app-shells/zsh
@@ -68,7 +67,7 @@ app-text/calibre
 app-text/djvu
 app-text/dos2unix
 app-text/ebook-tools
-#app-text/pastebinit
+app-text/pastebinit
 app-text/texlive
 app-text/tree
 app-text/unpaper
@@ -362,8 +361,6 @@ sys-boot/grub
 sys-boot/syslinux
 sys-boot/woeusb
 sys-cluster/minikube
-# all dependencies are currently masked because of python-3.9
-# sys-cluster/openstack-meta
 sys-devel/clang
 sys-devel/crossdev
 sys-devel/distcc
