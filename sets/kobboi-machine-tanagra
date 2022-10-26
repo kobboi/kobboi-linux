@@ -103,7 +103,8 @@ dev-python/coverage
 dev-python/django
 dev-python/GitPython
 dev-python/git-review
-dev-python/google-api-python-client
+# This is blocking protobuf updates which triggers endless rebuilds of everything that depends on it
+# dev-python/google-api-python-client
 dev-python/ipython
 dev-python/jedi
 dev-python/netifaces
