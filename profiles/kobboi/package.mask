@@ -23,6 +23,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/872707
 >=dev-util/sysprof-3.46
-
-# https://bugs.gentoo.org/878351
->=dev-libs/glib-2.74.1
