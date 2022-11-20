@@ -20,7 +20,3 @@ media-video/libav
 
 # not ready for ncdu-2 which pulls in zig which pulls in llvm:13
 >=sys-fs/ncdu-2
-
-# https://bugs.gentoo.org/879081
-# https://bugs.gentoo.org/870016
->=sys-devel/make-4.4
