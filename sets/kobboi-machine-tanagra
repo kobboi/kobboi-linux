@@ -425,7 +425,6 @@ net-print/brother-genml1-bin
 media-gfx/brother-dcp7025-bin
 app-benchmarks/stress-ng
 app-editors/gnome-text-editor
-app-emulation/aqemu
 app-misc/neofetch
 app-portage/iwdevtools
 app-text/xournalpp
