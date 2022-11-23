@@ -234,7 +234,7 @@ dev-libs/gobject-introspection doctool
 dev-libs/glib fam
 
 ### gnome-music ###
-media-libs/libmediaart gtk -qt5
+#media-libs/libmediaart gtk -qt5
 
 ### gnome-photos ###
 media-libs/gegl raw jpeg2k

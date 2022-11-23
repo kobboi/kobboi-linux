@@ -24,8 +24,6 @@ dev-db/mariadb
 #mate-base/mate
 net-ftp/tftp-hpa
 net-misc/rabbitmq-server
-# https://bugs.gentoo.org/775545
-#sci-mathematics/rstudio
 sys-boot/unetbootin
 www-client/pybugz
 x11-misc/makedepend

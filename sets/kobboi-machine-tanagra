@@ -207,7 +207,8 @@ media-plugins/gst-plugins-soup
 media-sound/alsa-utils
 media-sound/ardour
 media-sound/audacity
-media-sound/gnome-music
+#libsoup mask
+#media-sound/gnome-music
 media-sound/gpodder
 media-sound/hydrogen
 media-sound/lame
