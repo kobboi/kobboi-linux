@@ -191,7 +191,8 @@ media-gfx/eog-plugins
 media-gfx/fbida
 media-gfx/fotoxx
 media-gfx/gimp
-media-gfx/gnome-photos
+#soupmask
+#media-gfx/gnome-photos
 media-gfx/inkscape
 media-gfx/meshlab
 media-gfx/mscgen

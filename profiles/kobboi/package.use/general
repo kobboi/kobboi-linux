@@ -237,7 +237,7 @@ dev-libs/glib fam
 #media-libs/libmediaart gtk -qt5
 
 ### gnome-photos ###
-media-libs/gegl raw jpeg2k
+#media-libs/gegl raw jpeg2k
 
 ### gnome-shell ###
 gnome-base/gnome-shell nsplugin
