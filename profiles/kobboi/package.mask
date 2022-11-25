@@ -23,3 +23,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/882637
 >=sys-apps/texinfo-7
+
+# https://bugs.gentoo.org/882341
+>=sys-devel/make-4.4
