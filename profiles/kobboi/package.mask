@@ -26,3 +26,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/882341
 >=sys-devel/make-4.4
+
+# https://bugs.gentoo.org/883257
+>=dev-libs/glib-2.74.2
