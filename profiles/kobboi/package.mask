@@ -21,3 +21,5 @@ media-video/libav
 # not ready for ncdu-2 which pulls in zig which pulls in llvm:13
 >=sys-fs/ncdu-2
 
+# https://bugs.gentoo.org/885621
+>=sci-libs/vtk-9.2
