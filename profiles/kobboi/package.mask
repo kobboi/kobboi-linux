@@ -23,7 +23,3 @@ media-video/libav
 
 # https://bugs.gentoo.org/885621
 >=sci-libs/vtk-9.2
-
-
-# https://bugs.gentoo.org/885829
->=dev-db/mariadb-10.6.11
