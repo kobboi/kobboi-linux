@@ -1,0 +1,2 @@
+# needed for the dracut initramfs, otherwise it does not find my lv's
+sys-fs/lvm2 lvm
