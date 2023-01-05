@@ -28,4 +28,4 @@ media-video/libav
 >=dev-libs/boost-1.81
 
 # https://bugs.gentoo.org/889534
->=dev-cpp/antler-cpp-4.11
+>=dev-cpp/antlr-cpp-4.11
