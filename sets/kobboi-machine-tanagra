@@ -44,6 +44,7 @@ app-misc/fdupes
 app-misc/figlet
 app-misc/gnote
 app-misc/jq
+app-misc/liquidctl
 app-misc/ltunify
 app-misc/rlwrap
 app-misc/screen
