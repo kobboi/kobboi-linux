@@ -81,7 +81,7 @@ net-fs/autofs
 net-fs/sshfs
 net-im/slack
 net-misc/netkit-telnetd
-net-misc/youtube-dl
+net-misc/yt-dlp
 sys-devel/crossdev
 sys-process/iotop
 sys-process/lsof

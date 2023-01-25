@@ -289,7 +289,7 @@ net-misc/socat
 net-misc/teamviewer
 net-misc/vconfig
 net-misc/vrrpd
-net-misc/youtube-dl
+net-misc/yt-dlp
 net-p2p/transmission
 net-print/foomatic-db
 net-print/foomatic-db-ppds
