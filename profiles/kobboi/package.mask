@@ -29,3 +29,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/889534
 >=dev-cpp/antlr-cpp-4.11
+
+# https://bugs.gentoo.org/890563
+>=dev-python/sphinx-6
