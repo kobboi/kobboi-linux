@@ -260,7 +260,6 @@ net-ftp/vsftpd
 net-im/bitlbee
 net-im/pidgin
 net-im/slack
-net-im/teams
 net-irc/irssi
 net-irc/polari
 net-libs/gnutls

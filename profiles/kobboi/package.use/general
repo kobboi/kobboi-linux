@@ -641,9 +641,6 @@ www-apps/moodle mysqli
 # blueman blocks gnome-bluetooth for some unknown reason
 mate-base/mate -bluetooth
 
-# teams
->=media-video/ffmpeg-4.2.2 chromium
-
 # qtconsole -> ipython
 >=dev-python/QtPy-1.9.0-r2 gui printsupport
 
