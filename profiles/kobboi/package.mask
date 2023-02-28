@@ -32,3 +32,6 @@ media-video/libav
 
 # https://bugs.gentoo.org/890563
 >=dev-python/sphinx-6
+
+# https://bugs.gentoo.org/895912
+>=dev-lang/vala-0.56.4
