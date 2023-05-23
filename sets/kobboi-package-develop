@@ -1,4 +1,4 @@
-#app-emulation/virtualbox
+##app-emulation/virtualbox
 app-emulation/bochs
 app-emulation/qemu
 # crap upgrade path wrt flakes and pycodestyle
@@ -20,7 +20,8 @@ dev-python/numpy
 dev-python/seaborn
 app-editors/vscode
 dev-embedded/platformio
-dev-db/mysql-workbench
+# https://bugs.gentoo.org/905758
+# dev-db/mysql-workbench
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
