@@ -8,9 +8,6 @@
 # requires the above nv-codec-headers
 # >=media-video/ffmpeg-4.3
 
-# prefer ffmpeg over libav
-media-video/libav
-
 # https://bugs.gentoo.org/831437
 >=media-video/ffmpeg-5
 
@@ -18,14 +15,3 @@ media-video/libav
 # https://gitlab.gnome.org/GNOME/gvfs/-/issues/611
 >=net-fs/samba-4.16
 
-# not ready for ncdu-2 which pulls in zig which pulls in llvm:13
->=sys-fs/ncdu-2
-
-# https://bugs.gentoo.org/885621
->=sci-libs/vtk-9.2
-
-# https://bugs.gentoo.org/890563
-# >=dev-python/sphinx-6
-
-# https://bugs.gentoo.org/895912
-# >=dev-lang/vala-0.56.4
