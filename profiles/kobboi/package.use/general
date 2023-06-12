@@ -172,10 +172,8 @@ gnome-extra/evolution-data-server google
 app-crypt/libsecret vala
 
 ### ffmpeg ###
-# geen samba, want dan krijgen we samba3
-virtual/ffmpeg threads -samba
 # openssl voor https voor vtm.be downloads met youtube-dl
-media-video/ffmpeg vpx theora threads libass -samba fribidi frei0r openssl x265 bluray
+media-video/ffmpeg vpx theora threads libass fribidi frei0r openssl x265 bluray
 
 ### firefox ###
 media-plugins/gst-plugins-meta ffmpeg nl
