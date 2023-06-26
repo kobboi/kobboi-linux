@@ -1,2 +1,3 @@
-app-emulation/vagrant ruby_targets_ruby30	
+app-emulation/vagrant ruby_targets_ruby30
+>=dev-ruby/test-unit-3.6.1 ruby_targets_ruby30
 
