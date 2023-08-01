@@ -3,3 +3,5 @@ app-emulation/vagrant ruby_targets_ruby30
 >=dev-ruby/bundler-2.4.15 ruby_targets_ruby30
 >=dev-ruby/rubygems-3.4.15 ruby_targets_ruby30
 >=dev-ruby/http-accept-1.7.0-r1:1 ruby_targets_ruby30
+>=dev-ruby/minitest-5.19.0 ruby_targets_ruby30
+>=dev-ruby/rexml-3.2.6 ruby_targets_ruby30
