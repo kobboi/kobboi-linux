@@ -7,4 +7,6 @@ app-emulation/vagrant ruby_targets_ruby30
 >=dev-ruby/rexml-3.2.6 ruby_targets_ruby30
 >=dev-ruby/mime-types-3.5.0 ruby_targets_ruby30
 >=dev-ruby/mime-types-data-3.2023.0808 ruby_targets_ruby30
+>=dev-ruby/rss-0.3.0 ruby_targets_ruby30
+>=dev-ruby/stringio-3.0.8 ruby_targets_ruby30
 
