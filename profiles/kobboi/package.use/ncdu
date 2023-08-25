@@ -1,3 +1,3 @@
 # needed by zig-0.10.1-r2
->=sys-devel/llvm-15.0.7-r3:15 zstd
-sys-devel/lld zstd
+sys-devel/llvm:16 zstd
+sys-devel/lld:16 zstd
