@@ -70,7 +70,7 @@ dev-python/flask
 dev-python/mysqlclient
 dev-python/pip
 dev-python/pygit2
-dev-python/python-cstruct
+dev-python/cstruct
 dev-util/geany-plugins
 dev-util/git-delta
 games-fps/xonotic
