@@ -35,7 +35,7 @@ sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/os-prober
-sys-devel/gdb
+dev-debug/gdb
 sys-kernel/gentoo-kernel
 sys-kernel/linux-firmware
 sys-process/iotop
