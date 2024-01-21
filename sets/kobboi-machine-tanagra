@@ -148,7 +148,7 @@ dev-util/pycharm-community
 dev-util/quilt
 dev-util/rbtools
 dev-util/shellcheck
-dev-util/strace
+dev-debug/strace
 dev-util/systemtap
 dev-util/uncrustify
 dev-util/valgrind

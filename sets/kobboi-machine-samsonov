@@ -53,7 +53,7 @@ dev-vcs/tig
 dev-util/meld
 dev-util/geany
 dev-util/gnome-builder
-dev-util/strace
+dev-debug/strace
 dev-util/debugedit
 
 
