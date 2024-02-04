@@ -1,2 +1,2 @@
 >=sys-apps/i2c-tools-4.3 python
-app-misc/liquidctl python_targets_python3_10
+#app-misc/liquidctl python_targets_python3_10
