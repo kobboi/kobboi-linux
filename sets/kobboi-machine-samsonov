@@ -61,7 +61,6 @@ dev-util/debugedit
 app-admin/awscli
 app-admin/eclean-kernel
 app-editors/vim-core
-app-misc/binwalk
 app-shells/bash-completion
 dev-db/mariadb
 dev-db/mongodb

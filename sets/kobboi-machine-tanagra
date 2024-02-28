@@ -39,7 +39,6 @@ app-emulation/winetricks
 app-emulation/wine-vanilla
 app-laptop/i8kutils
 app-misc/banner
-app-misc/binwalk
 app-misc/fdupes
 app-misc/figlet
 app-misc/gnote
