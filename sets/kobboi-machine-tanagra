@@ -482,5 +482,4 @@ sys-boot/plymouth
 sys-power/powertop
 x11-apps/mesa-progs
 x11-misc/barrier
-x11-misc/grub2-theme-preview
 
