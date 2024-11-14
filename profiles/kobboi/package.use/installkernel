@@ -1,5 +1,6 @@
 # Re-generate grub.cfg on each kernel installation 
 #
 #sys-kernel/installkernel-gentoo  grub
->=sys-kernel/installkernel-19 dracut grub
+>=sys-kernel/installkernel-19 dracut systemd-boot
+>=sys-apps/systemd-256.7 boot
 
