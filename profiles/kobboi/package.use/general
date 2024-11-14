@@ -525,7 +525,7 @@ dev-libs/weston headless rdp -rpi screen-sharing -static-libs -test -unwind wayl
 
 
 ### wireshark ###
-net-analyzer/wireshark lua gtk3
+net-analyzer/wireshark lua gtk3 lua_single_target_lua5-4
 
 ### wpa_supplicant ###
 net-wireless/wpa_supplicant dbus readline -ssl ap eap-sim fasteap -gnutls p2p -ps3 -selinux -smartcard -wimax wps
