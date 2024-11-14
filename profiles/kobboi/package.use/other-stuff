@@ -1,0 +1,17 @@
+# required by games-strategy/wesnoth-1.18.3::gentoo[-dedicated]
+# required by @kobboi-package-games
+# required by @kobboi-machine-tanagra (argument)
+>=media-libs/sdl2-image-2.8.2 webp
+# required by sci-libs/caffe2-2.5.1::gentoo
+# required by sci-libs/pytorch-2.5.1::gentoo
+# required by @kobboi-machine-tanagra (argument)
+>=dev-libs/sleef-3.7 cpu_flags_x86_avx512f
+# required by dev-python/QtPy-2.4.2::gentoo[-quick,pyqt5,qml]
+# required by dev-python/qtconsole-5.6.1::gentoo
+# required by dev-python/ipython-8.29.0::gentoo[-python_targets_python3_11,-python_targets_python3_13,-python_targets_python3_10,python_targets_python3_12,qt5]
+# required by dev-python/ipykernel-6.29.5::gentoo[-test]
+# required by dev-python/ipyparallel-9.0.0::gentoo
+>=dev-python/PyQt5-5.15.11 declarative
+# required by dev-db/redis-7.4.1::gentoo[jemalloc]
+# required by @kobboi-machine-tanagra (argument)
+>=dev-libs/jemalloc-5.3.0-r1 stats
