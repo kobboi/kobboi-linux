@@ -139,7 +139,7 @@ dev-util/gnome-builder
 dev-util/gtk-doc
 dev-util/jenkins-bin:lts
 dev-util/jfrog-cli
-dev-util/ltrace
+dev-debug/ltrace
 dev-util/meld
 dev-util/perf
 dev-util/pycharm-community
