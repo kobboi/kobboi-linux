@@ -147,7 +147,7 @@ dev-util/quilt
 dev-util/rbtools
 dev-util/shellcheck
 dev-debug/strace
-dev-util/systemtap
+dev-debug/systemtap
 dev-util/uncrustify
 dev-util/valgrind
 dev-vcs/cvs
