@@ -566,9 +566,6 @@ media-libs/freetype harfbuzz
 #gnome-calculator
 x11-libs/gtksourceview vala
 
-#openshot
->=dev-qt/qtmultimedia-5.11.2 widgets
-
 #qmapshack
 dev-qt/qtwebengine widgets
 dev-qt/qtwebchannel qml
