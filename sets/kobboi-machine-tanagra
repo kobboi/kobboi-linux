@@ -265,7 +265,6 @@ net-mail/smtptools
 net-misc/bridge-utils
 net-misc/cadaver
 net-misc/dhcp
-net-misc/dleyna-server
 net-misc/dropbear
 net-misc/gupnp-tools
 net-misc/igmpproxy
