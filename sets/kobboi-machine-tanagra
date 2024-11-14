@@ -129,7 +129,7 @@ dev-util/android-studio
 dev-util/android-tools
 dev-util/ccache
 dev-util/cscope
-dev-util/ddd
+dev-debug/ddd
 dev-util/debugedit
 dev-debug/d-feet
 dev-util/diffoscope
