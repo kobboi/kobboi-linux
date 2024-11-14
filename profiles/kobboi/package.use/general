@@ -196,10 +196,6 @@ dev-vcs/git tk
 dev-libs/libgit2 threads
 app-text/gtkspell vala
 
-### gitolite ###
-dev-vcs/gitolite tools
-acct-user/git gitolite
-
 ### gnome ###
 gnome-extra/evolution-data-server vala
 dev-libs/libical vala

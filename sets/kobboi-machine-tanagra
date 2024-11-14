@@ -155,7 +155,6 @@ dev-vcs/git
 dev-vcs/git-flow
 dev-vcs/git-lfs
 dev-vcs/gitg
-dev-vcs/gitolite
 dev-vcs/qgit
 dev-vcs/repo
 dev-vcs/subversion
