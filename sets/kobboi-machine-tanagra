@@ -377,7 +377,6 @@ sys-fs/multipath-tools
 sys-fs/squashfs-tools
 sys-libs/efivar
 sys-libs/gpm
-sys-libs/libhugetlbfs
 sys-power/acpi
 sys-power/acpid
 sys-power/cpupower
