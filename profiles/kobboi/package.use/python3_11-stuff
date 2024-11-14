@@ -1,0 +1,69 @@
+# required by dev-python/flit-core-3.10.1::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/gpep517-16 python_targets_python3_11
+# required by dev-python/pika-1.3.2::gentoo
+# required by @kobboi-machine-tanagra (argument)
+>=dev-python/setuptools-75.5.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/jaraco-collections-5.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/jaraco-functools-4.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/more-itertools-10.5.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/packaging-24.2 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/platformdirs-4.3.6 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/wheel-0.45.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/pika-1.3.2::gentoo
+# required by @kobboi-machine-tanagra (argument)
+>=dev-python/setuptools-scm-8.1.0 python_targets_python3_11
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/trove-classifiers-2024.10.21.16 python_targets_python3_11
+# required by dev-python/platformdirs-4.3.6::gentoo
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/flit-core-3.10.1 python_targets_python3_11
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/jaraco-context-6.0.1 python_targets_python3_11
+# required by dev-python/jaraco-context-6.0.1::gentoo[-python_targets_python3_10,python_targets_python3_11,-python_targets_pypy3]
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/backports-tarfile-1.2.0 python_targets_python3_11
+# required by dev-python/gpep517-16::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-75.5.0::gentoo
+# required by dev-python/setuptools-scm-8.1.0::gentoo[-test]
+>=dev-python/installer-0.7.0 python_targets_python3_11
+# required by dev-python/pyzmq-26.2.0::gentoo[-test]
+# required by dev-python/ipykernel-6.29.5::gentoo[-test]
+# required by dev-python/qtconsole-5.6.1::gentoo
+# required by dev-python/ipython-8.29.0::gentoo[python_targets_python3_12,-python_targets_python3_13,-python_targets_python3_11,-python_targets_python3_10,qt5]
+# required by dev-python/ipyparallel-9.0.0::gentoo
+>=net-libs/zeromq-4.3.5-r1 -drafts
+# required by dev-debug/d-feet-0.3.16::gentoo[python_single_target_python3_11]
+# required by @kobboi-machine-tanagra (argument)
+>=dev-python/pygobject-3.48.2-r1 python_targets_python3_11
+# required by dev-python/pygobject-3.48.2-r1::gentoo[cairo]
+# required by dev-debug/d-feet-0.3.16::gentoo[python_single_target_python3_11]
+# required by @kobboi-machine-tanagra (argument)
+>=dev-python/pycairo-1.27.0 python_targets_python3_11
