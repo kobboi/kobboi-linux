@@ -149,7 +149,7 @@ dev-util/shellcheck
 dev-debug/strace
 dev-debug/systemtap
 dev-util/uncrustify
-dev-util/valgrind
+dev-debug/valgrind
 dev-vcs/cvs
 dev-vcs/git
 dev-vcs/git-flow
