@@ -9,5 +9,5 @@
 # >=media-video/ffmpeg-4.3
 
 # https://bugs.gentoo.org/831437
->=media-video/ffmpeg-5
+# >=media-video/ffmpeg-5
 
