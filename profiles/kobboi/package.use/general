@@ -126,12 +126,6 @@ dev-ml/lablgtk sourceview
 ### corefonts-tahoma ###
 media-fonts/corefonts tahoma
 
-### cura ###
-dev-python/PyQt5 declarative
-dev-python/numpy lapack
-dev-libs/libarcus python
-dev-libs/libsavitar python
-
 ### digikam ###
 kde-apps/marble plasma
 media-libs/opencv contrib contribdnn tesseract
