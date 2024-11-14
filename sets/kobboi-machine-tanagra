@@ -127,7 +127,6 @@ dev-tcltk/tcllib
 dev-tex/latex-beamer
 dev-util/android-studio
 dev-util/android-tools
-dev-util/artifactory-bin
 dev-util/ccache
 dev-util/cscope
 dev-util/ddd
