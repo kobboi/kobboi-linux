@@ -85,7 +85,8 @@ dev-db/sqlitestudio
 dev-embedded/arduino
 dev-embedded/avrdude
 dev-embedded/dfu-programmer
-dev-java/icedtea
+dev-java/openjdk
+dev-java/icedtea-web
 dev-java/maven-bin
 dev-lang/go
 dev-lang/mono
@@ -428,7 +429,6 @@ app-editors/gnome-text-editor
 app-misc/neofetch
 app-portage/iwdevtools
 app-text/xournalpp
-dev-java/icedtea-web
 dev-ruby/liquid
 dev-util/pkgdev
 dev-vcs/pre-commit

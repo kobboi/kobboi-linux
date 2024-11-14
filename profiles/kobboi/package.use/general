@@ -278,11 +278,6 @@ dev-libs/boost python
 ### icaclient ###
 net-misc/icaclient nsplugin
 
-### icedtea-bin ###
-dev-java/icedtea-bin nsplugin
-dev-java/icedtea nsplugin
-dev-java/icedtea-web nsplugin
-
 ### imagemagick ###
 # remove autotrace because it has a problem #619468
 media-gfx/imagemagick lqr webp opencl corefonts -autotrace
