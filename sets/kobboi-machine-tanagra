@@ -111,7 +111,7 @@ dev-python/openpyxl
 dev-python/peewee
 dev-python/pika
 dev-python/pip
-dev-python/pygit2
+#dev-python/pygit2
 dev-python/pymongo
 dev-python/pyserial
 dev-python/requests
