@@ -11,3 +11,5 @@
 # https://bugs.gentoo.org/831437
 # >=media-video/ffmpeg-5
 
+# meson regression, see also bug #945770
+>=dev-build/meson-1.6
