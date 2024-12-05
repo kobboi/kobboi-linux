@@ -355,7 +355,7 @@ sys-block/nbd
 sys-boot/efibootmgr
 sys-boot/grub
 sys-boot/syslinux
-sys-boot/woeusb
+sys-boot/woeusb-ng
 sys-cluster/minikube
 sys-devel/clang
 sys-devel/crossdev
