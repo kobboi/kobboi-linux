@@ -1,1 +1,16 @@
->=dev-python/PyQt6-6.6.1 quick qml webchannel
+# required by dev-python/qtpy-2.4.2::gentoo[pyqt5]
+# required by dev-python/qtconsole-5.6.1::gentoo
+# required by dev-python/ipython-8.30.0::gentoo[-python_targets_python3_10,-python_targets_python3_13,-python_targets_python3_11,python_targets_python3_12,qt5]
+# required by dev-python/ipykernel-6.29.5::gentoo[-test]
+# required by dev-python/ipyparallel-9.0.0::gentoo
+>=dev-python/pyqt5-5.15.11 declarative sql
+# required by dev-python/qtconsole-5.6.1::gentoo
+# required by dev-python/ipython-8.30.0::gentoo[-python_targets_python3_10,-python_targets_python3_13,-python_targets_python3_11,python_targets_python3_12,qt5]
+# required by dev-python/ipykernel-6.29.5::gentoo[-test]
+# required by dev-python/ipyparallel-9.0.0::gentoo
+>=dev-python/qtpy-2.4.2 printsupport
+# required by app-text/calibre-7.22.0::gentoo[python_single_target_python3_12]
+# required by @kobboi-machine-tanagra
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyqt6-6.8.0_pre2411221125 quick webchannel
