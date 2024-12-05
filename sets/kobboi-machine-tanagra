@@ -101,7 +101,7 @@ app-admin/awscli
 dev-python/boto3
 dev-python/coverage
 dev-python/django
-dev-python/GitPython
+dev-python/gitpython
 dev-python/git-review
 dev-python/google-api-python-client
 dev-python/ipython

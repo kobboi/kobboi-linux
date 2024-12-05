@@ -96,7 +96,7 @@ app-emulation/vagrant
 app-eselect/eselect-repository
 app-office/endeavour
 app-text/xournal
-dev-python/GitPython
+dev-python/gitpython
 dev-python/autopep8
 dev-python/python-ldap
 dev-tex/latex-beamer
