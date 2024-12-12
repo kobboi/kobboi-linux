@@ -357,7 +357,7 @@ sys-boot/grub
 sys-boot/syslinux
 sys-boot/woeusb-ng
 sys-cluster/minikube
-sys-devel/clang
+llvm-core/clang
 sys-devel/crossdev
 sys-devel/distcc
 sys-devel/llvm
