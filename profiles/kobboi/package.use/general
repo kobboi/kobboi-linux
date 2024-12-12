@@ -112,7 +112,7 @@ app-arch/tar xattr
 net-fs/cifs-utils -caps caps-ng
 
 ### clang ###
-sys-devel/llvm clang
+llvm-core/llvm clang
 
 ### clementine ###
 media-sound/clementine googledrive
@@ -173,7 +173,7 @@ media-video/ffmpeg vpx theora threads libass fribidi frei0r openssl x265 bluray
 media-plugins/gst-plugins-meta ffmpeg nl
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
->=sys-devel/llvm-10.0.0 gold
+>=llvm-core/llvm-10.0.0 gold
 www-client/firefox hwaccel
 
 ### gbm ###
@@ -432,7 +432,7 @@ dev-qt/qtlockedfile qt5
 =dev-java/validation-api-1.0.0-r1 source
 
 ### rust ###
-sys-devel/llvm -multitarget
+llvm-core/llvm -multitarget
 
 ### samba ###
 net-fs/cifs-utils ads

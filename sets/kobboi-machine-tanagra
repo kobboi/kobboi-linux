@@ -360,7 +360,7 @@ sys-cluster/minikube
 llvm-core/clang
 sys-devel/crossdev
 sys-devel/distcc
-sys-devel/llvm
+llvm-core/llvm
 sys-firmware/intel-microcode
 sys-firmware/nvidia-firmware
 sys-firmware/zd1211-firmware

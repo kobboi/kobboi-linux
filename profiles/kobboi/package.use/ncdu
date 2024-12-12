@@ -1,3 +1,3 @@
 # needed by zig-0.10.1-r2
-sys-devel/llvm:16 zstd
+llvm-core/llvm:16 zstd
 sys-devel/lld:16 zstd
