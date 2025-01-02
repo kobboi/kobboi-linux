@@ -14,3 +14,25 @@ kde-frameworks/kconfig qml
 #plasma-meta
 >=kde-plasma/kwin-5.25.0 lock
 
+
+
+# required by kde-apps/akonadi-config-0::gentoo
+# required by kde-apps/akonadi-24.12.0-r1::gentoo
+# required by kde-apps/akonadi-contacts-24.12.0-r1::gentoo
+# required by kde-apps/mailcommon-24.12.0-r1::gentoo
+# required by kde-apps/kmail-24.12.0-r1::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages (argument)
+>=dev-qt/qtbase-6.8.1 mysql
+# required by kde-misc/kweather-24.12.0::gentoo
+# required by kde-apps/kdeutils-meta-24.12.0::gentoo
+# required by kde-apps/kde-apps-meta-24.12.0::gentoo[utils]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages (argument)
+>=dev-qt/qtpositioning-6.8.1 geoclue
+# required by kde-apps/khelpcenter-24.12.0::gentoo
+# required by kde-apps/kdecore-meta-24.12.0::gentoo[webengine]
+# required by kde-apps/kde-apps-meta-24.12.0::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages (argument)
+>=kde-frameworks/kio-6.9.0 handbook
