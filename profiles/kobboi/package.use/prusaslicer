@@ -7,3 +7,6 @@
 # required by @selected
 # required by @world (argument)
 >=sci-libs/cgnslib-4.3.0 hdf5
+>=sci-libs/hdf5-1.14.4_p3-r1 cxx
+
+
