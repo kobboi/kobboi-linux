@@ -13,3 +13,6 @@
 
 # meson regression, see also bug #945770
 >=dev-build/meson-1.6
+
+# pokerth, aegisub and others failing
+>=dev-libs/boost-1.87
