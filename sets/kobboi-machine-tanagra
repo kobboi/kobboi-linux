@@ -119,7 +119,6 @@ dev-python/sympy
 dev-python/virtualenv
 dev-python/xlrd
 dev-python/xlsxwriter
-dev-qt/qdbusviewer
 dev-ruby/capistrano
 dev-ruby/rails
 dev-tcltk/expect
