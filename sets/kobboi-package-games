@@ -7,8 +7,7 @@ games-arcade/supertux
 games-arcade/whichwayisup
 games-arcade/xscavenger
 games-board/crafty
-# https://bugs.gentoo/org/946991
-# games-board/pokerth
+games-board/pokerth
 games-board/stockfish
 games-emulation/advancemame
 games-emulation/dosbox
