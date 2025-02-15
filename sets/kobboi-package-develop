@@ -27,3 +27,6 @@ app-containers/docker-cli
 app-containers/docker-compose
 dev-util/shellcheck
 dev-util/cppcheck
+# For desktop-head-unit, a tool to test Anrdoid Auto apps (installable via SDK Tools in android-studio)
+llvm-runtimes/libcxx
+llvm-runtimes/libcxxabi
