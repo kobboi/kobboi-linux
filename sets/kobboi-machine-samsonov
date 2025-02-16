@@ -95,7 +95,6 @@ app-containers/lxd
 app-emulation/vagrant
 app-eselect/eselect-repository
 app-office/endeavour
-app-text/xournal
 dev-python/gitpython
 dev-python/autopep8
 dev-python/python-ldap

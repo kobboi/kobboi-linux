@@ -449,7 +449,6 @@ app-misc/resolve-march-native
 app-office/endeavour
 app-portage/iwdevtools
 app-portage/mgorny-dev-scripts
-app-text/xournal
 dev-games/godot
 dev-python/autopep8
 dev-python/voluptuous
