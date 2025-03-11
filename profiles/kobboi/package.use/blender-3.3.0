@@ -1,1 +1,3 @@
 >=media-libs/freetype-2.12.1-r1 brotli
+# blender[ffmpeg]
+>=media-video/ffmpeg-6.1.2-r1 lame
