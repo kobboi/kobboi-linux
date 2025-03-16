@@ -3,7 +3,7 @@
 # required by @kobboi-machine-tanagra (argument)
 >=media-libs/sdl2-image-2.8.2 webp
 # required by sci-libs/caffe2-2.5.1::gentoo
-# required by sci-libs/pytorch-2.5.1::gentoo
+# required by sci-ml/pytorch-2.5.1::gentoo
 # required by @kobboi-machine-tanagra (argument)
 >=dev-libs/sleef-3.7 cpu_flags_x86_avx512f
 # required by dev-python/QtPy-2.4.2::gentoo[-quick,pyqt5,qml]
