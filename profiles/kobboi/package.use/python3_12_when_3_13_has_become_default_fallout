@@ -1,0 +1,233 @@
+# required by dev-python/gpep517-18::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-collections-5.1.0 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-10.7.0 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-25.0 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-4.3.7 python_targets_python3_12
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.45.1 python_targets_python3_12
+# required by dev-python/cryptography-44.0.2::gentoo
+# required by dev-python/pyopenssl-25.0.0-r1::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-util/maturin-1.8.3 python_targets_python3_12
+# required by dev-python/cffi-1.17.1::gentoo[-test]
+# required by dev-python/pycares-4.7.0::gentoo[python_targets_python3_13,-python_targets_python3_11,-test,python_targets_python3_12]
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycparser-2.22 python_targets_python3_12
+# required by dev-python/pycparser-2.22::gentoo[-test]
+# required by dev-python/cffi-1.17.1::gentoo[-test]
+# required by dev-python/pycares-4.7.0::gentoo[python_targets_python3_13,-python_targets_python3_11,-test,python_targets_python3_12]
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r2 python_targets_python3_12
+# required by dev-python/charset-normalizer-3.4.1::gentoo
+# required by dev-python/requests-2.32.3::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-18 python_targets_python3_12
+# required by dev-python/wheel-0.45.1::gentoo
+# required by dev-libs/tree-sitter-bash-0.23.3::gentoo[python]
+# required by dev-util/pkgcheck-0.10.34::gentoo[-test]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit-core-3.12.0 python_targets_python3_12
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-6.0.1-r1 python_targets_python3_12
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.1.0::gentoo
+# required by dev-python/setuptools-80.1.0::gentoo
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.1.0 python_targets_python3_12
+# required by dev-python/django-5.2::gentoo
+# required by dev-python/djangorestframework-3.16.0::gentoo
+# required by @kobboi-machine-samsonov
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-80.1.0 python_targets_python3_12
+# required by dev-python/hatchling-1.27.0::gentoo[-test]
+# required by dev-python/expandvars-1.0.0::gentoo
+# required by dev-python/frozenlist-1.6.0::gentoo
+# required by dev-python/aiosignal-1.3.2::gentoo
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2025.5.1.12 python_targets_python3_12
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyopenssl-25.0.0-r1 python_targets_python3_12
+# required by app-admin/salt-3007.1-r2::gentoo[keyring]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/keyring-25.6.0-r1 python_targets_python3_12
+# required by dev-python/keyring-25.6.0-r1::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo[keyring]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/secretstorage-3.3.3 python_targets_python3_12
+# required by dev-python/keyring-25.6.0-r1::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo[keyring]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-classes-3.4.0 python_targets_python3_12
+# required by dev-python/secretstorage-3.3.3::gentoo
+# required by dev-python/keyring-25.6.0-r1::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo[keyring]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/jeepney-0.9.0 python_targets_python3_12
+# required by dev-python/cheroot-10.0.1::gentoo
+# required by dev-python/cherrypy-18.10.0::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-scm-8.3.1 python_targets_python3_12
+# required by dev-python/pyopenssl-25.0.0-r1::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/cryptography-44.0.2 python_targets_python3_12
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycares-4.7.0 python_targets_python3_12
+# required by dev-python/pycares-4.7.0::gentoo
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-3.10 python_targets_python3_12
+# required by dev-python/pycares-4.7.0::gentoo[-python_targets_python3_11,python_targets_python3_12,python_targets_python3_13,-test]
+# required by dev-python/aiodns-3.2.0::gentoo[-test]
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by app-admin/salt-3007.1-r2::gentoo
+# required by @kobboi-package-other
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=dev-python/cffi-1.17.1 python_targets_python3_12

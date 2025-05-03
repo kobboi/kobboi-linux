@@ -1,0 +1,2 @@
+app-emulation/xen-tools python_single_target_python3_12
+>=dev-python/lxml-5.4.0 python_targets_python3_12

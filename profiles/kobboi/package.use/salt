@@ -1,0 +1,5 @@
+app-admin/salt python_targets_python3_12
+>=dev-python/distro-1.9.0 python_targets_python3_12
+>=dev-python/jinja2-3.1.6 python_targets_python3_12
+>=dev-python/markupsafe-3.0.2 python_targets_python3_12
+>=dev-python/pyyaml-6.0.2 python_targets_python3_12
