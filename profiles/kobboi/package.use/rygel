@@ -1,2 +1,1 @@
-media-libs/gstreamer-editing-services python_targets_python3_12
-media-libs/libmediaart -qt6
+>=net-libs/gupnp-av-0.14.1-r1 vala
