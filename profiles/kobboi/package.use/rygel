@@ -1,1 +1,2 @@
 >=net-libs/gupnp-av-0.14.1-r1 vala
+media-libs/libmediaart gtk -qt6
