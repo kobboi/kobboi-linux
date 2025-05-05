@@ -129,7 +129,7 @@ dev-util/ccache
 dev-util/cscope
 dev-debug/ddd
 dev-util/debugedit
-dev-debug/d-feet
+dev-debug/d-spy
 dev-util/diffoscope
 dev-util/geany
 dev-util/glade
