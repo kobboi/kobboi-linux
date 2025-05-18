@@ -476,9 +476,6 @@ dev-games/cegui ogre
 ### supertux ###
 media-libs/sdl-mixer mod mikmod
 
-### synergy ###
-net-dns/avahi mdnsresponder-compat
-
 ### systemd ###
 sys-apps/systemd nat http nat importd curl gcrypt lzma
 net-libs/libmicrohttpd epoll
