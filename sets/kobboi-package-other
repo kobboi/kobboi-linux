@@ -11,7 +11,8 @@ app-containers/snapd
 www-client/pybugz
 #fails to build with debug symbols, still need to log bug
 #sci-libs/tensorflow
-app-admin/salt
+# temp disable to see if its the only thing requiring python3_12
+#app-admin/salt
 app-arch/makeself
 app-emulation/qemu
 app-emulation/virt-manager
