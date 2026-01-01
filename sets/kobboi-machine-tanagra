@@ -17,7 +17,6 @@ app-arch/sharutils
 app-crypt/ccid
 app-crypt/efitools
 app-crypt/eid-mw
-app-crypt/nitrokey-app
 app-crypt/pdfcrack
 app-editors/ghex
 app-editors/gnome-latex
