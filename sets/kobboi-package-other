@@ -24,7 +24,6 @@ dev-db/mariadb
 #mate-base/mate
 net-ftp/tftp-hpa
 net-misc/rabbitmq-server
-sys-boot/unetbootin
 www-client/pybugz
 x11-misc/makedepend
 www-apps/moodle
