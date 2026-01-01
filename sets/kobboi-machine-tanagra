@@ -427,7 +427,7 @@ net-misc/whois
 sys-apps/flatpak
 sys-apps/memtest86-bin
 x11-apps/mesa-progs
-x11-misc/barrier
+gui-apps/input-leap
 
 # adding some more world stuff
 app-arch/pigz
@@ -469,5 +469,4 @@ sys-apps/nvme-cli
 sys-boot/plymouth
 sys-power/powertop
 x11-apps/mesa-progs
-x11-misc/barrier
 
