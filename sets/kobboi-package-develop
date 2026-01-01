@@ -19,7 +19,7 @@ dev-python/pandas
 dev-python/numpy
 dev-python/seaborn
 app-editors/vscode
-dev-embedded/platformio
+# dev-embedded/platformio
 # https://bugs.gentoo.org/905758
 # dev-db/mysql-workbench
 app-containers/docker
