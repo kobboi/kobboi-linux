@@ -12,4 +12,4 @@
 # >=media-video/ffmpeg-5
 
 # pokerth, aegisub and others failing
->=dev-libs/boost-1.87
+#>=dev-libs/boost-1.87
