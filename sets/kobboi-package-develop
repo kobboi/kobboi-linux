@@ -13,7 +13,7 @@ dev-lang/yasm
 dev-lang/tcl
 dev-lang/rust
 net-libs/nodejs
-dev-python/chart-studio
+#dev-python/chart-studio
 dev-python/plotly
 dev-python/pandas
 dev-python/numpy
