@@ -75,7 +75,7 @@ app-text/xml2
 #cross-avr/binutils
 #cross-avr/gcc
 dev-cpp/glog
-dev-db/mongodb
+#dev-db/mongodb
 dev-db/postgresql
 dev-db/redis
 dev-db/rqlite

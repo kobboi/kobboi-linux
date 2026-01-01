@@ -63,7 +63,7 @@ app-admin/eclean-kernel
 app-editors/vim-core
 app-shells/bash-completion
 dev-db/mariadb
-dev-db/mongodb
+#dev-db/mongodb
 dev-python/djangorestframework
 dev-python/flask
 dev-python/mysqlclient
