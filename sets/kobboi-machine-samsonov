@@ -88,7 +88,6 @@ sys-process/lsof
 www-client/google-chrome
 www-client/pybugz
 x11-apps/mesa-progs
-x11-themes/geany-themes
 
 app-admin/ansible
 app-containers/lxd
