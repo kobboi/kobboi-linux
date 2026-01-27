@@ -107,6 +107,12 @@ media-gfx/pstoedit plotutils
 
 ### catalyst ###
 app-arch/tar xattr
+# required by dev-util/catalyst-4.1.0::gentoo
+# required by catalyst (argument)
+>=sys-apps/util-linux-2.41.3 python
+# required by dev-util/catalyst-4.1.0::gentoo[iso,-qcow2]
+# required by catalyst (argument)
+>=sys-boot/grub-2.14 grub_platforms_efi-32
 
 ### cifs-utils ###
 net-fs/cifs-utils -caps caps-ng

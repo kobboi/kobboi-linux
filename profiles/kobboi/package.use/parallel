@@ -1,0 +1,6 @@
+# required by sys-process/parallel-20250722-r1::gentoo
+# required by @kobboi-package-system-tools
+# required by @kobboi-machine-tanagra
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages (argument)
+>=dev-lang/perl-5.42.0-r1 perl_features_ithreads

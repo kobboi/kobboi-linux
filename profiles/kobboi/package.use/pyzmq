@@ -1,0 +1,7 @@
+# required by dev-python/pyzmq-27.1.0::gentoo[-test]
+# required by dev-python/jupyter-client-8.7.0::gentoo
+# required by dev-python/qtconsole-5.7.0::gentoo
+# required by dev-python/ipython-9.9.0::gentoo[python_targets_python3_13,-python_targets_python3_11,-python_targets_python3_14,gui,-python_targets_python3_12]
+# required by dev-python/ipykernel-6.31.0::gentoo[-test]
+# required by dev-python/ipyparallel-9.0.2::gentoo
+>=net-libs/zeromq-4.3.5-r1 -drafts

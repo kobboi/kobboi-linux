@@ -1,0 +1,5 @@
+# required by dev-db/sqlitestudio-4.0.0_pre20251207::gentoo
+# required by @kobboi-machine-samsonov
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages (argument)
+>=dev-qt/qttools-6.10.1-r1 designer

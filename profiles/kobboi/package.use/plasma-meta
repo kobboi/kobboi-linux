@@ -1,1 +1,6 @@
 kde-plasma/plasma-meta -gtk
+
+# required by kde-plasma/plasma-meta-6.5.4::gentoo[X]
+# required by @kobboi-package-other
+# required by @kobboi-all-packages (argument)
+>=kde-plasma/kwin-x11-6.5.4 lock

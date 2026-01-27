@@ -1,0 +1,9 @@
+# required by dev-lang/typescript-5.9.3::gentoo
+# required by gnome-extra/gnome-weather-49.0::gentoo
+# required by gnome-base/gnome-extra-apps-48.0::gentoo
+# required by gnome-base/gnome-48.0::gentoo[extras]
+# required by @kobboi-machine-base
+# required by @kobboi-machine-moeke
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages (argument)
+>=net-libs/nodejs-24.11.1-r1 npm
