@@ -13,3 +13,6 @@
 
 # pokerth, aegisub and others failing
 #>=dev-libs/boost-1.87
+
+# https://bugs.gentoo.org/964385
+>=dev-libs/capstone-6
