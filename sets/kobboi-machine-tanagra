@@ -238,7 +238,6 @@ net-dialup/rp-l2tp
 net-dialup/rp-pppoe
 net-dialup/xl2tpd
 net-dns/bind
-net-dns/bind-tools
 net-dns/ddclient
 net-firewall/conntrack-tools
 net-firewall/ebtables

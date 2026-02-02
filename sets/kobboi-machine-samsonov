@@ -77,7 +77,6 @@ games-fps/xonotic
 gnome-extra/gnome-clocks
 net-analyzer/nmap
 net-analyzer/traceroute
-net-dns/bind-tools
 net-fs/autofs
 net-fs/sshfs
 net-im/slack
