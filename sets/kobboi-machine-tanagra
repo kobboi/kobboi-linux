@@ -19,7 +19,8 @@ app-crypt/efitools
 app-crypt/eid-mw
 app-crypt/pdfcrack
 app-editors/ghex
-app-editors/gnome-latex
+#tepl build failure
+#app-editors/gnome-latex
 app-editors/gummi
 app-editors/gvim
 app-editors/hexedit

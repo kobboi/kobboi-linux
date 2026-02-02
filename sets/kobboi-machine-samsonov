@@ -17,7 +17,8 @@ sys-fs/ncdu
 sys-fs/mtd-utils
 
 app-editors/ghex
-app-editors/gnome-latex
+# tepl build failure
+#app-editors/gnome-latex
 app-editors/hexedit
 app-misc/fdupes
 app-misc/screen
