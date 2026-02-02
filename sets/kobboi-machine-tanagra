@@ -85,7 +85,8 @@ dev-embedded/arduino
 dev-embedded/avrdude
 dev-embedded/dfu-programmer
 dev-java/openjdk
-dev-java/icedtea-web
+#sandbox issue
+#dev-java/icedtea-web
 dev-java/maven-bin
 dev-lang/go
 dev-lang/mono
@@ -254,7 +255,8 @@ net-irc/irssi
 net-irc/polari
 net-libs/gnutls
 net-libs/nodejs
-net-mail/email
+#not building
+#net-mail/email
 net-mail/smtptools
 net-misc/bridge-utils
 net-misc/cadaver

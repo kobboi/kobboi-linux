@@ -2,7 +2,8 @@ games-action/bzflag
 games-action/extreme-tuxracer
 games-action/supertuxkart
 games-arcade/blobwars
-games-arcade/frozen-bubble
+# perl-SDL2 broken
+#games-arcade/frozen-bubble
 games-arcade/supertux
 games-arcade/whichwayisup
 games-arcade/xscavenger

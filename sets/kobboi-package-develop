@@ -3,7 +3,8 @@ app-emulation/bochs
 app-emulation/qemu
 # crap upgrade path wrt flakes and pycodestyle
 #dev-python/spyder
-dev-util/cutter
+# temp disable
+#dev-util/cutter
 dev-lang/clojure
 dev-lang/go
 dev-lang/ruby
