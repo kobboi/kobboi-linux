@@ -299,7 +299,8 @@ sci-astronomy/stellarium
 sci-calculators/tiemu
 sci-calculators/units
 sci-electronics/kicad
-sci-electronics/gerbv
+#projet almost dead
+#sci-electronics/gerbv
 sci-geosciences/gpsbabel
 sci-electronics/gtkwave
 sci-electronics/iverilog
@@ -461,7 +462,8 @@ net-misc/whois
 net-print/cnijfilter2
 net-print/cups-bjnp
 net-print/gutenprint
-sci-electronics/geda
+# project almost dead
+#sci-electronics/geda
 sci-mathematics/lean
 sci-mathematics/z3
 sys-apps/memtest86-bin
