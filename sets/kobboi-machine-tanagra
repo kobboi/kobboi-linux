@@ -455,7 +455,7 @@ games-rpg/bass
 games-simulation/flightgear
 games-simulation/pmars-sdl
 gnome-extra/gnome-browser-connector
-gnome-extra/gnome-shell-extension-weather-in-the-clock
+gnome-extra/gnome-shell-extension-weather-oclock
 media-fonts/fira-code
 media-gfx/digikam
 media-video/libva-utils
