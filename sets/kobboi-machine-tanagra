@@ -143,7 +143,6 @@ dev-util/meld
 dev-util/perf
 dev-util/pycharm-community
 dev-util/quilt
-dev-util/rbtools
 dev-util/shellcheck
 dev-debug/strace
 dev-debug/systemtap
