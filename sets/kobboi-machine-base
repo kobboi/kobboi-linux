@@ -23,7 +23,7 @@ media-sound/mp3gain
 media-video/avidemux
 media-video/mpv
 media-video/vlc
-net-im/pidgin
+#net-im/pidgin
 net-misc/modemmanager
 net-misc/teamviewer
 net-misc/yt-dlp

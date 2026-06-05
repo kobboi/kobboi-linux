@@ -249,7 +249,7 @@ net-fs/sshfs
 net-ftp/lftp
 net-ftp/vsftpd
 net-im/bitlbee
-net-im/pidgin
+#net-im/pidgin
 net-im/slack
 net-irc/irssi
 net-irc/polari
@@ -402,7 +402,7 @@ x11-misc/wmctrl
 x11-misc/xclip
 x11-misc/xdotool
 x11-misc/xpad
-x11-plugins/pidgin-extprefs
+#x11-plugins/pidgin-extprefs
 # https://bugs.gentoo.org/932640
 #x11-plugins/pidgin-sipe
 x11-terms/xterm
