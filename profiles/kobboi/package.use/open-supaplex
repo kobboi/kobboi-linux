@@ -1,0 +1,7 @@
+# required by games-arcade/open-supaplex-7.2.2::gentoo
+# required by @kobboi-machine-tanagra
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=media-libs/sdl2-mixer-2.8.2 mod
