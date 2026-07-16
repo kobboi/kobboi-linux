@@ -11,7 +11,7 @@ app-admin/supervisor
 app-admin/sysstat
 app-antivirus/clamav
 app-arch/lzop
-app-arch/p7zip
+app-arch/7zip
 app-arch/rar
 app-arch/sharutils
 app-crypt/ccid
