@@ -429,7 +429,7 @@ net-misc/whois
 sys-apps/flatpak
 sys-apps/memtest86-bin
 x11-apps/mesa-progs
-gui-apps/input-leap
+gui-apps/deskflow
 
 # adding some more world stuff
 app-arch/pigz
