@@ -1,0 +1,7 @@
+# required by media-gfx/blender-5.0.0::gentoo[ffmpeg]
+# required by @kobboi-machine-tanagra
+# required by @kobboi-all-machines
+# required by @kobboi-all-packages
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-8.1 xvid
