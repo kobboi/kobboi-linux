@@ -1,0 +1,12 @@
+# required by net-fs/samba-4.24.1::gentoo
+# required by media-libs/xine-lib-1.2.13-r5::gentoo[samba]
+# required by media-libs/mlt-7.34.1-r1::gentoo[xine]
+# required by media-video/shotcut-25.08.16::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/ngtcp2-1.22.1 gnutls
+
+# required by media-video/shotcut-25.08.16::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/mlt-7.34.1-r1 jack
