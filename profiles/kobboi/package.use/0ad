@@ -1,0 +1,4 @@
+# required by dev-util/premake-5.0.0_beta7::gentoo[lua_single_target_lua5-3]
+# required by games-strategy/0ad-0.28.0-r1::gentoo
+# required by 0ad (argument)
+>=dev-lua/luasocket-3.1.0 lua_targets_lua5-3

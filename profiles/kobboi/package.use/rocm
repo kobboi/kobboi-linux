@@ -1,0 +1,5 @@
+*/* rocm
+dev-debug/gdb multitarget
+dev-util/hip -video_cards_nvidia video_cards_amdgpu
+sci-libs/hipBLAS rocsolver
+*/* AMDGPU_TARGETS: -* gfx1030

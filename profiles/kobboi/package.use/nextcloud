@@ -1,0 +1,4 @@
+# required by www-apps/nextcloud-33.0.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lang/php-8.5.5 truetype
