@@ -1,5 +1,26 @@
-*/* rocm
+dev-debug/gdb rocm
+sci-ml/pytorch rocm
+sys-apps/hwloc rocm
+
 dev-debug/gdb multitarget
 dev-util/hip -video_cards_nvidia video_cards_amdgpu
 sci-libs/hipBLAS rocsolver
-*/* AMDGPU_TARGETS: -* gfx1030
+
+#dev-util/Tensile amdgpu_targets_gfx1030 -amdgpu_targets_gfx90a -amdgpu_targets_gfx908 -amdgpu_targets_gfx942 -amdgpu_targets_gfx1030 -amdgpu_targets_gfx1100 -amdgpu_targets_gfx1101 -amdgpu_targets_gfx1200 -amdgpu_targets_gfx1201 -amdgpu_targets_gfx803 -amdgpu_targets_gfx900 -amdgpu_targets_gfx906 -amdgpu_targets_gfx940 -amdgpu_targets_gfx941 -amdgpu_targets_gfx1010 -amdgpu_targets_gfx1011 -amdgpu_targets_gfx1012 -amdgpu_targets_gfx1031 -amdgpu_targets_gfx1102 -amdgpu_targets_gfx1103 -amdgpu_targets_gfx1150 -amdgpu_targets_gfx1151
+#dev-util/roctracer amdgpu_targets_gfx1030 -amdgpu_targets_gfx90a -amdgpu_targets_gfx908 -amdgpu_targets_gfx942 -amdgpu_targets_gfx1030 -amdgpu_targets_gfx1100 -amdgpu_targets_gfx1101 -amdgpu_targets_gfx1200 -amdgpu_targets_gfx1201 -amdgpu_targets_gfx803 -amdgpu_targets_gfx900 -amdgpu_targets_gfx906 -amdgpu_targets_gfx940 -amdgpu_targets_gfx941 -amdgpu_targets_gfx1010 -amdgpu_targets_gfx1011 -amdgpu_targets_gfx1012 -amdgpu_targets_gfx1031 -amdgpu_targets_gfx1102 -amdgpu_targets_gfx1103 -amdgpu_targets_gfx1150 -amdgpu_targets_gfx1151
+#media-libs/oidn amdgpu_targets_gfx1030 -amdgpu_targets_gfx90a -amdgpu_targets_gfx908 -amdgpu_targets_gfx942 -amdgpu_targets_gfx1030 -amdgpu_targets_gfx1100 -amdgpu_targets_gfx1101 -amdgpu_targets_gfx1200 -amdgpu_targets_gfx1201 -amdgpu_targets_gfx803 -amdgpu_targets_gfx900 -amdgpu_targets_gfx906 -amdgpu_targets_gfx940 -amdgpu_targets_gfx941 -amdgpu_targets_gfx1010 -amdgpu_targets_gfx1011 -amdgpu_targets_gfx1012 -amdgpu_targets_gfx1031 -amdgpu_targets_gfx1102 -amdgpu_targets_gfx1103 -amdgpu_targets_gfx1150 -amdgpu_targets_gfx1151
+#sci-libs/hipBLAS amdgpu_targets_gfx1030 -amdgpu_targets_gfx90a -amdgpu_targets_gfx908 -amdgpu_targets_gfx942 -amdgpu_targets_gfx1030 -amdgpu_targets_gfx1100 -amdgpu_targets_gfx1101 -amdgpu_targets_gfx1200 -amdgpu_targets_gfx1201 -amdgpu_targets_gfx803 -amdgpu_targets_gfx900 -amdgpu_targets_gfx906 -amdgpu_targets_gfx940 -amdgpu_targets_gfx941 -amdgpu_targets_gfx1010 -amdgpu_targets_gfx1011 -amdgpu_targets_gfx1012 -amdgpu_targets_gfx1031 -amdgpu_targets_gfx1102 -amdgpu_targets_gfx1103 -amdgpu_targets_gfx1150 -amdgpu_targets_gfx1151
+#sci-libs/hipCUB amdgpu_targets_gfx1030
+#sci-libs/hipFFT amdgpu_targets_gfx1030
+#sci-libs/hipRAND amdgpu_targets_gfx1030
+#sci-libs/hipSOLVER amdgpu_targets_gfx1030
+#sci-libs/hipSPARSE amdgpu_targets_gfx1030
+#sci-libs/miopen amdgpu_targets_gfx1030
+#sci-libs/rocBLAS amdgpu_targets_gfx1030
+#sci-libs/rocFFT amdgpu_targets_gfx1030
+#sci-libs/rocPRIM amdgpu_targets_gfx1030
+#sci-libs/rocRAND amdgpu_targets_gfx1030
+#sci-libs/rocSOLVER amdgpu_targets_gfx1030
+#sci-libs/rocSPARSE amdgpu_targets_gfx1030
+#sci-libs/rocThrust amdgpu_targets_gfx1030
+#sci-ml/pytorch amdgpu_targets_gfx1030
