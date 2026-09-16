@@ -1,1 +1,23 @@
 <x11-drivers/nvidia-drivers-391
+
+# because guru is masked, hope this works
+
+app-containers/waydroid
+dev-python/pyclip
+dev-python/gbinder
+dev-libs/libglibutil
+dev-libs/gbinder
+
+www-apps/forgejo
+dev-util/forgejo-runner
+acct-user/forgejo-runner
+acct-group/forgejo-runner
+
+dev-lang/cc65
+
+sci-mathematics/rstudio-desktop-bin
+
+# The Linux Experiment apps (https://www.youtube.com/watch?v=qH7ElDRn09w)
+gui-apps/espanso
+app-misc/superfile
+sys-apps/lact
