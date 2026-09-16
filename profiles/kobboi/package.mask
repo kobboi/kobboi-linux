@@ -16,3 +16,5 @@
 
 # https://bugs.gentoo.org/964385
 >=dev-libs/capstone-6
+
+*/*::guru
