@@ -435,6 +435,7 @@ gui-apps/deskflow
 app-arch/pigz
 app-benchmarks/stress-ng
 app-containers/lxd
+app-containers/incus
 app-editors/gnome-text-editor
 app-misc/jdupes
 app-misc/neofetch
