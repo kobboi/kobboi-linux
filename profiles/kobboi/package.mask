@@ -18,3 +18,5 @@
 >=dev-libs/capstone-6
 
 */*::guru
+
+>=www-apps/moodle-5.2
