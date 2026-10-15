@@ -1,0 +1,64 @@
+From 314377eb33df4ac92eba053a7349911e8dd2d241 Mon Sep 17 00:00:00 2001
+From: "Sv. Lockal" <lockalsash@gmail.com>
+Date: Sat, 10 Oct 2026 18:07:44 +0800
+Subject: [PATCH] sci-libs/miopen: fix build with boost-1.91
+
+Closes: https://bugs.gentoo.org/983886
+Signed-off-by: Sv. Lockal <lockalsash@gmail.com>
+---
+ .../miopen/files/miopen-7.2.0-fix-boost.patch | 33 +++++++++++++++++++
+ sci-libs/miopen/miopen-7.2.0.ebuild           |  1 +
+ 2 files changed, 34 insertions(+)
+ create mode 100644 sci-libs/miopen/files/miopen-7.2.0-fix-boost.patch
+
+diff --git a/sci-libs/miopen/files/miopen-7.2.0-fix-boost.patch b/sci-libs/miopen/files/miopen-7.2.0-fix-boost.patch
+new file mode 100644
+index 0000000000000..ae89fc10c6f1c
+--- /dev/null
++++ b/sci-libs/miopen/files/miopen-7.2.0-fix-boost.patch
+@@ -0,0 +1,33 @@
++Fix build with boost-1.91 (backwards compatible, already fixed in upstream)
++Bug: https://bugs.gentoo.org/983886
++--- a/src/find_controls.cpp
+++++ b/src/find_controls.cpp
++@@ -161,7 +161,7 @@ boost::optional<std::vector<solver::Id>> GetEnvFindOnlySolverImpl()
++     if(res.empty())
++         return boost::none;
++     else
++-        return {res};
+++        return res;
++ }
++ 
++ } // namespace
++--- a/src/include/miopen/sqlite_db.hpp
+++++ b/src/include/miopen/sqlite_db.hpp
++@@ -463,7 +463,7 @@ public:
++                 ovr_rec.SetValues(vals.at(0), vals.at(1));
++             }
++             if(success)
++-                return {ovr_rec};
+++                return ovr_rec;
++         }
++         std::string clause;
++         std::vector<std::string> values;
++@@ -498,7 +498,7 @@ public:
++         if(rec.GetSize() == 0)
++             return boost::none;
++         else
++-            return {rec};
+++            return rec;
++     }
++ 
++     /// Removes ID with associated VALUES from record with key PROBLEM_CONFIG from db.
+diff --git a/sci-libs/miopen/miopen-7.2.0.ebuild b/sci-libs/miopen/miopen-7.2.0.ebuild
+index 13a654e6851e5..43cbb89f6f11a 100644
+--- a/sci-libs/miopen/miopen-7.2.0.ebuild
++++ b/sci-libs/miopen/miopen-7.2.0.ebuild
+@@ -61,6 +61,7 @@ BDEPEND="
+ 
+ PATCHES=(
+ 	"${FILESDIR}"/${PN}-6.1.1-build-all-tests.patch
++	"${FILESDIR}"/${PN}-7.2.0-fix-boost.patch
+ )
+ 
+ src_prepare() {
